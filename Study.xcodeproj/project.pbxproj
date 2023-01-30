@@ -96,11 +96,11 @@
 		2CE6547E2987B1BB003F5CBB /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				2CE654AB2987B91C003F5CBB /* myFunction.swift */,
 				2CE6547F2987B1BB003F5CBB /* StudyApp.swift */,
 				2CE654812987B1BB003F5CBB /* ContentView.swift */,
 				2CE654832987B1BC003F5CBB /* Assets.xcassets */,
 				2CE654852987B1BC003F5CBB /* Preview Content */,
-				2CE654AB2987B91C003F5CBB /* myFunction.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";

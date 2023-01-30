@@ -15,14 +15,16 @@ struct myFunction: View {
         Text(myMind)
         Button{
             isChangedmyMind.toggle()
-            if isChangedmyMind {
-                myMind = "always open"
-            } else {
-                myMind = "but closed"
-            }
-            
+            myMind = getMymind(with: isChangedmyMind)
         }label: {
             Text("Changed my Mind!")
+        }
+    }
+    func getMymind(with isChangedMind:Bool)->String{
+        if isChangedMind {
+           return "always open"
+        }else {
+            return "but closed"
         }
     }
 }
