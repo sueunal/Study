@@ -12,12 +12,14 @@ struct myFunction: View {
     @State var myMind : String = "nothing is my mind"
     @State var isChangedmyMind :Bool = false
     var body: some View {
-        Text(myMind)
-        Button{
-            isChangedmyMind.toggle()
-            myMind = getMymind(with: isChangedmyMind)
-        }label: {
-            Text("Changed my Mind!")
+        VStack{
+            Text(myMind)
+            Button{
+                isChangedmyMind.toggle()
+                myMind = getMymind(with: isChangedmyMind)
+            }label: {
+                Text("Changed my Mind!")
+            }
         }
     }
     func getMymind(with isChangedMind:Bool)->String{
