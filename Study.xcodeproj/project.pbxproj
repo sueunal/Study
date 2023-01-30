@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6547F2987B1BB003F5CBB /* StudyApp.swift */; };
 		2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE654812987B1BB003F5CBB /* ContentView.swift */; };
 		2CE654842987B1BC003F5CBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE654832987B1BC003F5CBB /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2CE6547C2987B1BB003F5CBB /* Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE6547F2987B1BB003F5CBB /* StudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyApp.swift; sourceTree = "<group>"; };
 		2CE654812987B1BB003F5CBB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		2CE6547E2987B1BB003F5CBB /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				2C21430F2988198C00554B15 /* Loop.swift */,
 				2C21430E2987FE7100554B15 /* README.md */,
 				2CE654AB2987B91C003F5CBB /* myFunction.swift */,
 				2CE6547F2987B1BB003F5CBB /* StudyApp.swift */,
@@ -265,6 +268,7 @@
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
 				2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */,
 				2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */,
+				2C2143102988198C00554B15 /* Loop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
