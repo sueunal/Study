@@ -15,12 +15,22 @@ struct Loop: View {
         looploop(farmAnimals)
         }
     }
+        VStack{
+            ForEach(farmAnimals, id:\.self){ animal in
+                Text(animal)
+                
+            }
+            ForEach(0..<5){number in
+                Text(farmAnimals[number])
+            }
+        }
+    }
     func looploop(farmAnimals : [String])->String{
             ForEach(farmAnimals, id: \.self ){ animal in
                 Text(animal)
             }
         return animal
-    }
+        }
 }
 
 struct Loop_Previews: PreviewProvider {
