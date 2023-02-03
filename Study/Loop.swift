@@ -12,24 +12,14 @@ struct Loop: View {
     var body: some View {
         VStack {
         Text("Loop Here!")
-        looploop(farmAnimals)
+            Text(looploop(with : farmAnimals))
         }
     }
-        VStack{
-            ForEach(farmAnimals, id:\.self){ animal in
-                Text(animal)
-                
-            }
-            ForEach(0..<5){number in
-                Text(farmAnimals[number])
-            }
-        }
-    }
-    func looploop(farmAnimals : [String])->String{
+    func looploop(with farmAnimals : [String])->String{
             ForEach(farmAnimals, id: \.self ){ animal in
                 Text(animal)
             }
-        return animal
+        return "asdfasdf"
         }
 }
 
