@@ -5,11 +5,11 @@
 
 
 ## 선언
-``
+```
 func name (parameter : type )-> return type {
         code
 }
-``
+```
 스위프트의 함수를 사용할 때는 
 parameter : tpye으로 매개변수:타입
 -> 표시로 return type을 지정해준다.
@@ -59,7 +59,7 @@ struct Myenum: View {
         
     }
 }
-``
+```
 ### 사용하는 이유
 #### menu의 자료형은 String이기때문에 어떤 문자열도 올 수 있다.
 **즉 sueun, kill 등 menu와 상관없는 문자열이 포함될 수 있다.**  
