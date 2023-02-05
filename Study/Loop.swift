@@ -11,7 +11,6 @@ struct Loop: View {
     let farmAnimals = ["🦮","🦌","🐿️","🦧","🦚"]
     var body: some View {
         VStack {
-        Text("Loop Here!")
             Text(looploop(with : farmAnimals))
         }
     }
