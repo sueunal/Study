@@ -177,7 +177,7 @@ padding, background, conrnerRadius 등을 활용하여 버튼을 꾸밀 수있�
 ## Image
 SwiftUI 에서 이미지를 추가하는 방법은 간단하다.
 Assets에 이미지를 추가한 후 Image("이미지이름")을 적어주면 바로 추가 된다.   
-<img width="247" alt="스크린샷 2023-02-15 오전 1 23 46" src="https://user-images.githubusercontent.com/36671600/218797084-f19af236-2a51-45da-bde2-d11bb891ce70.png">
+<img width="150" alt="스크린샷 2023-02-15 오전 1 23 46" src="https://user-images.githubusercontent.com/36671600/218797084-f19af236-2a51-45da-bde2-d11bb891ce70.png">
 ```
 struct myimage: View {
     var body: some View {
