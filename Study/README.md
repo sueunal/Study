@@ -151,7 +151,8 @@ Text("hello world!")
 bold, italic, font 등 다양한 스타일을 지정할 수 있다.  
 ## Button
 누르면 어떤 특정한 동작을 하는 컴포넌트이다.   
-cmd + shift + L 을 누르면 여러가지 컴포넌트를. 확인할 수 있다.   
+cmd + shift + L 을 누르면 여러가지 컴포넌트를 확인할 수 있다.   
+<img width="150" alt="스크린샷 2023-02-15 오전 12 09 47" src="https://user-images.githubusercontent.com/36671600/218778185-d1d9f823-19c5-4041-af5c-f427a1947417.png">
 ```
 struct myButton: View {
     @State var thingAbout : String = "Around here"
