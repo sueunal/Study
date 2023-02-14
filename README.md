@@ -1,4 +1,4 @@
 # Study Swift Readme
 
 
-</https://github.com/sueunal/Study/blob/main/Study/README.md>
+[Study][https://github.com/sueunal/Study/blob/main/Study/README.md]
