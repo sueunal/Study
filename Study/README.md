@@ -170,4 +170,6 @@ struct myButton: View {
 Button 안에 있는 코드는 버튼을 눌렀을 때 실행 되는 코드 이다.   
 label: 내부의 코드는 직접적으로 버튼이 시각적으로 나타나는 부분이다.   
 Around here 이라는 버튼을 누르면 unstoppable 이라는 메시지로 변경된다.   
+Text에서 스타일을 변경할 수 있었던 것을 활용해 보면   
+padding, background, conrnerRadius 등을 활용하여 버튼을 꾸밀 수있다. 
 
