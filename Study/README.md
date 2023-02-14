@@ -149,5 +149,25 @@ struct ContentView: View {
 Text("hello world!")
 입력하면 화면에 hello world가 나타나게 되고, Text에 맞는 modifier를 지정해주면   
 bold, italic, font 등 다양한 스타일을 지정할 수 있다.  
-
+## Button
+누르면 어떤 특정한 동작을 하는 컴포넌트이다.   
+cmd + shift + L 을 누르면 여러가지 컴포넌트를. 확인할 수 있다.   
+```
+struct myButton: View {
+    @State var thingAbout : String = "Around here"
+    var body: some View {
+        Button {
+            thingAbout = "unstoppable"
+        } label: {
+            Text(thingAbout)
+                .padding()
+                .background(.green)
+                .cornerRadius(13)
+        }
+    }
+}
+```
+Button 안에 있는 코드는 버튼을 눌렀을 때 실행 되는 코드 이다.   
+label: 내부의 코드는 직접적으로 버튼이 시각적으로 나타나는 부분이다.   
+Around here 이라는 버튼을 누르면 unstoppable 이라는 메시지로 변경된다.   
 

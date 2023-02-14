@@ -18,8 +18,6 @@ struct Myswitch: View {
             Text("오늘은 소고기")
         case .pork:
             Text("오늘은 돼지고기")
-        default:
-            Text("이 것은 못 만들어요")
         }
     }
 }
