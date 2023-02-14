@@ -112,9 +112,10 @@ if문 충분히 switch로 하는 것처럼 작성할 수 있다.
 **하지만, 코드의 간결함과 포함 되어지는 케이스가 증가한다면 케이스를 누락하는 경우도 있다**.  
 **때문에.. switch로 작성해 케이스가 누락되지 않도록 작성하는 것이 좋다**. 
 
-## Text
+## Text("hello world")
 #### swiftUI view에서 주로 화면에 텍스트를 표시해주는 역할을 한다.
-<img width="150" alt="스크린샷 2023-02-14 오후 9 41 20" src="https://user-images.githubusercontent.com/36671600/218762987-af79830c-86dc-4000-bdeb-e112bb2cd27c.png">
+<img width="150" alt="스크린샷 2023-02-14 오후 9 41 20" src="https://user-images.githubusercontent.com/36671600/218762987-af79830c-86dc-4000-bdeb-e112bb2cd27c.png"> 여기에 글을쓰며 어떻게 될까요?
+
 ```
 struct ContentView: View {
     var body: some View {
