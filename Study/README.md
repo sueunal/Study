@@ -115,6 +115,7 @@ if문 충분히 switch로 하는 것처럼 작성할 수 있다.
 ## Text
 > swiftUI view에서 주로 화면에 텍스트를 표시해주는 역할을 한다.
 <hr/>
+<img width="150" alt="스크린샷 2023-02-14 오후 9 41 20" src="https://user-images.githubusercontent.com/36671600/218762987-af79830c-86dc-4000-bdeb-e112bb2cd27c.png">
 
 
 
