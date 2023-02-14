@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2C564502299BD2C8007C3B32 /* myButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C564501299BD2C8007C3B32 /* myButton.swift */; };
+		2C564504299BDD4E007C3B32 /* myimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C564503299BDD4E007C3B32 /* myimage.swift */; };
 		2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3BEE4298CC10A009A4EA4 /* Myenum.swift */; };
 		2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */; };
 		2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6547F2987B1BB003F5CBB /* StudyApp.swift */; };
@@ -42,6 +43,7 @@
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2C564501299BD2C8007C3B32 /* myButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myButton.swift; sourceTree = "<group>"; };
+		2C564503299BDD4E007C3B32 /* myimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myimage.swift; sourceTree = "<group>"; };
 		2CB3BEE4298CC10A009A4EA4 /* Myenum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myenum.swift; sourceTree = "<group>"; };
 		2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myswitch.swift; sourceTree = "<group>"; };
 		2CE6547C2987B1BB003F5CBB /* Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,7 @@
 				2CE654832987B1BC003F5CBB /* Assets.xcassets */,
 				2CE654852987B1BC003F5CBB /* Preview Content */,
 				2C564501299BD2C8007C3B32 /* myButton.swift */,
+				2C564503299BDD4E007C3B32 /* myimage.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
+				2C564504299BDD4E007C3B32 /* myimage.swift in Sources */,
 				2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */,
 				2C564502299BD2C8007C3B32 /* myButton.swift in Sources */,
 				2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */,
