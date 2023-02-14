@@ -12,10 +12,6 @@ struct Loop: View {
     var body: some View {
         VStack {
         Text("Loop Here!")
-        looploop(farmAnimals)
-        }
-    }
-        VStack{
             ForEach(farmAnimals, id:\.self){ animal in
                 Text(animal)
                 
@@ -25,12 +21,6 @@ struct Loop: View {
             }
         }
     }
-    func looploop(farmAnimals : [String])->String{
-            ForEach(farmAnimals, id: \.self ){ animal in
-                Text(animal)
-            }
-        return animal
-        }
 }
 
 struct Loop_Previews: PreviewProvider {
