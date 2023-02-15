@@ -206,6 +206,7 @@ struct myimage: View {
 
 ## Stack
 <img width="150" alt="stack" src="https://user-images.githubusercontent.com/36671600/218945454-7f9dea1b-91e4-4043-8ec4-6b90d49ea3f1.png">
+
 - 쌓는다의 의미를 가진다.
 - VStack, HStack, ZStack 존재한다.
 - VStack : Verital 수직으로 쌓는다
