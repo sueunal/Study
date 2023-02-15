@@ -198,8 +198,7 @@ struct myimage: View {
 }
 ```
 이미지를 추가 하면 크기가 맞지 않아 다시 조절해주어야 할 필요가 있다.   
-이때 frame()을 사용하여 width, heigth를 조절하여,
-resizable()로 이미지를 frame 크기에 맞게 넣어준다.   
-내가 추가한 이미지가 아닌 아이콘 처럼 애플에서 제공되어지는 것들이 있는데.  
-SF symbols을 사용하면 Image(systemName: "이미지 이름")으로
-제공 되어지는 아이콘을 사용할 수 있다.
+- frame()을 사용하여 width, heigth를 조절하여,
+- resizable()로 이미지를 frame 크기에 맞게 넣어준다.   
+##### 내가 추가한 이미지가 아닌 아이콘 처럼 애플에서 제공되어지는 것들이 있는데.  
+**SF symbols을 사용하면 Image(systemName: "이미지 이름")으로 제공 되어지는 아이콘을 사용할 수 있다.**
