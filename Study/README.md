@@ -205,6 +205,7 @@ struct myimage: View {
 **SF symbols을 사용하면 Image(systemName: "이미지 이름")으로 제공 되어지는 아이콘을 사용할 수 있다.**
 
 ## Stack
+![스크린샷 2023-02-15 오후 2 56 00](https://user-images.githubusercontent.com/36671600/218944819-b1f28e4b-3f44-4cb9-b80a-8ca80241ea44.png)
 - 쌓는다의 의미를 가진다.
 - VStack, HStack, ZStack 존재한다.
 - VStack : Verital 수직으로 쌓는다
