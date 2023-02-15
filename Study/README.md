@@ -212,5 +212,29 @@ struct myimage: View {
 - VStack : Verital 수직으로 쌓는다
 - HStack : Horizontal 수평으로 쌓는다.
 - ZStack : Depth 겹쳐서 쌓는다.
--> 주로 색깔이나 이미지 등을 활용하여 사용된다.
+
+```
+struct Mystack: View {
+    var body: some View {
+        ZStack{
+            Image("river")
+                .resizable()
+                .frame(width: 340,height: 500)
+            VStack {
+            Image(systemName: "person.fill")
+                .resizable()
+                .frame(width: 150, height: 200)
+                .foregroundColor(.yellow)
+                Spacer()
+            Image(systemName: "bell")
+                    .resizable()
+                    .frame(width: 150,height: 140)
+                    .foregroundColor(.purple)
+            }
+        }
+    }
+}
+```
+우선 ZStack으로 이미지를 깔아두고 VStack으로 수평으로 사람,종을 쌓아서 만들었다.   
+ZStack을 Text()를 나열해서 만들게 된다면 Text가 모두 겹치게 되는데 주로 Color, Image를 밑에 깔아두고 사용한다.   
 

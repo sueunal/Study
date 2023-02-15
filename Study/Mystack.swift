@@ -13,7 +13,7 @@ struct Mystack: View {
             Image("river")
                 .resizable()
                 .frame(width: 340,height: 500)
-            VStack {
+            VStack{
             Image(systemName: "person.fill")
                 .resizable()
                 .frame(width: 150, height: 200)
