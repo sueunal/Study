@@ -153,6 +153,7 @@ Text("hello world!")
 - 누르면 어떤 특정한 동작을 하는 컴포넌트이다.   
 - cmd + shift + L 을 누르면 여러가지 컴포넌트를 확인할 수 있다.   
 <img width="150" alt="스크린샷 2023-02-15 오전 12 09 47" src="https://user-images.githubusercontent.com/36671600/218778185-d1d9f823-19c5-4041-af5c-f427a1947417.png">
+
 ```
 struct myButton: View {
     @State var thingAbout : String = "Around here"
@@ -168,6 +169,7 @@ struct myButton: View {
     }
 }
 ```
+
 Button 안에 있는 코드는 버튼을 눌렀을 때 실행 되는 코드 이다.   
 - label: 내부의 코드는 직접적으로 버튼이 시각적으로 나타나는 부분이다.   
 - Around here 이라는 버튼을 누르면 unstoppable 이라는 메시지로 변경된다.   
