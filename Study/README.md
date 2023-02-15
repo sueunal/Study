@@ -203,3 +203,12 @@ struct myimage: View {
 - resizable()로 이미지를 frame 크기에 맞게 넣어준다.   
 #### 내가 추가한 이미지가 아닌 아이콘 처럼 애플에서 제공되어지는 것들이 있는데.  
 **SF symbols을 사용하면 Image(systemName: "이미지 이름")으로 제공 되어지는 아이콘을 사용할 수 있다.**
+
+## Stack
+- 쌓는다의 의미를 가진다.
+- VStack, HStack, ZStack 존재한다.
+- VStack : Verital 수직으로 쌓는다
+- HStack : Horizontal 수평으로 쌓는다.
+- ZStack : Depth 겹쳐서 쌓는다.
+-> 주로 색깔이나 이미지 등을 활용하여 사용된다.
+
