@@ -242,8 +242,40 @@ ZStack을 Text()를 나열해서 만들게 된다면 Text가 모두 겹치게 �
 - VStack, HStack 처럼 쌓을 때 화면을 벗어나게 된다면 제대로 보이지 않는 경우가 발생한다.   
 - 일반적으로 자동으로 보여지게 되는 것이 정상이라고 생각할 순 있지만 ScrollView를 생성하여 View를 넣어주어야만 스크롤을 이용하여 화면을 볼 수 있다.   
 <img width="150" alt="Vstack" src="https://user-images.githubusercontent.com/36671600/219335813-cde20d9c-2fe5-46ee-b7be-a5bb7cae0806.png">
-
+스크롤뷰가 없는 상태에서 쌓았을 경우 화면 밖의 요소들은 보이지 않는다.
 <img width="150" alt="스크린샷 2023-02-16 오후 7 06 32" src="https://user-images.githubusercontent.com/36671600/219335445-ce8931c7-aa8a-4c30-bcaf-4140f44a724b.png">
+스클롤뷰를 추가하면 옆에 스크롤바가 생기며 위아래로 이동하며 범위를 벗어난 것들을 볼 수 있다.
+
+```
+struct MyScrollView: View {
+    var body: some View {
+        ScrollView{
+            VStack{
+                Text("1")
+                    .frame(width: 300,height: 500)
+                    .background(.red)
+                Text("2")
+                    .frame(width: 300,height: 500)
+                    .background(.blue)
+                Text("3")
+                    .frame(width: 300,height: 500)
+                    .background(.green)
+            }
+            ScrollView(.horizontal){
+                HStack{
+                    Text("4")
+                        .frame(width: 300,height: 500)
+                        .background(.purple)
+                    Text("5")
+                        .frame(width: 300,height: 500)
+                        .background(.green)
+                }
+            }
+        }
+    }
+}
+```
+**ScrollView 를 사용할 때 기본적으로 수직으로 설정되어 있는데 .horizontal 을 추가하면 수평으로 설정 가능하다.
 
 
 
