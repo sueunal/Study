@@ -275,7 +275,7 @@ struct MyScrollView: View {
     }
 }
 ```
-**ScrollView 를 사용할 때 기본적으로 수직으로 설정되어 있는데 .horizontal 을 추가하면 수평으로 설정 가능하다.
+**ScrollView 를 사용할 때 기본적으로 수직으로 설정되어 있는데 .horizontal 을 추가하면 수평으로 설정 가능하다.**
 
 
 
