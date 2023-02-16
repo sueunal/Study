@@ -276,6 +276,8 @@ struct MyScrollView: View {
 }
 ```
 **ScrollView 를 사용할 때 기본적으로 수직으로 설정되어 있는데 .horizontal 을 추가하면 수평으로 설정 가능하다.**
-
+## List
+- 선을 그어 구분지어 주는 컴포넌트이다.
+- 아주 간단하게 생성할 수 있다.
 
 
