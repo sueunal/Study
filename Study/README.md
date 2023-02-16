@@ -238,3 +238,7 @@ struct Mystack: View {
 우선 ZStack으로 이미지를 깔아두고 VStack으로 수평으로 사람,종을 쌓아서 만들었다.   
 ZStack을 Text()를 나열해서 만들게 된다면 Text가 모두 겹치게 되는데 주로 Color, Image를 밑에 깔아두고 사용한다.   
 
+## ScrollView
+- VStack, HStack 처럼 쌓을 때 화면을 벗어나게 된다면 제대로 보이지 않는 경우가 발생한다.   
+- 일반적으로 자동으로 보여지게 되는 것이 정상이라고 생각할 순 있지만 ScrollView를 생성하여 View를 넣어주어야만 스크롤을 이용하여 화면을 볼 수 있다.   
+
