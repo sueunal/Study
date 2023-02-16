@@ -303,5 +303,28 @@ var body : some view {
 ```
 **names를 배열 형태로 만들고 names의 크기 만큼 List를 생성해주면   
 만약 추가를 해주어야 하는 상황이면 배열의 인덱스만 추가해주면 된다.**
+
 ![스크린샷 2023-02-16 오후 10 55 27](https://user-images.githubusercontent.com/36671600/219384046-9904dd7e-a7e1-4a1a-ab69-abeb91d7619c.png)
+```
+struct Person: Identifiable {
+    var id = UUID()
+    let name : String
+    let imageName : String
+}
+struct myLIst: View {
+    var names : [Person]  = [Person(name:"Sueun",imageName: "bolt"),
+                             Person(name: "Jenny", imageName: "cloud"),
+                             Person(name: "John", imageName: "tree")
+    ]
+    var body: some View{
+        List(names){person in
+            HStack{
+                Image(systemName: person.imageName)
+                Text(person.name)
+            }
+        }
+    }
+}
+``` 
+
 
