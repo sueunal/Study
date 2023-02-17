@@ -279,6 +279,7 @@ struct MyScrollView: View {
 ## List
 - 선을 그어 구분지어 주는 컴포넌트이다.
 - 아주 간단하게 생성할 수 있다.
+
 ![스크린샷 2023-02-16 오후 9 54 05](https://user-images.githubusercontent.com/36671600/219370727-b25b1144-c838-4079-a59d-34d052389dd8.png)
 
 ```
