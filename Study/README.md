@@ -327,5 +327,35 @@ struct myLIst: View {
     }
 }
 ``` 
+## Spacer
+- 공간을 만들어주는 레이아웃이다
+- HStack, VStack 경우 쌓을 때 사이에 공간을 만들어주는 역할을 한다.
+
+```
+struct mySpacer: View {
+    var body: some View {
+        VStack{
+            HStack{
+                Spacer()
+                Image(systemName: "heart.fill")
+                    .resizable()
+                    .frame(width: 50,height: 50)
+                Text("hello world")
+                Spacer()
+            }.padding(.horizontal, 50)
+            Button {
+                print("heart!")
+            } label: {
+                Text("click here!")
+                    .font(.system(size:50))
+                    .foregroundColor(.yellow)
+                    .frame(width:250, height: 50)
+                    .background(.blue)
+            }
+
+        }
+    }
+}
+```
 
 
