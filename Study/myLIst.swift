@@ -19,19 +19,12 @@ struct myLIst: View {
                              Person(name: "John", imageName: "tree")
     ]
     var body: some View {
-        List{
-            Text("Hello")
-            Text("Hello")
-            Text("Hello")
-            Text("Hello")
-            Text("Hello")
+        List(names){person in
+            HStack{
+                Image(systemName: person.imageName)
+                Text(person.name)
+            }
         }
-//        List(names){person in
-//            HStack{
-//                Image(systemName: person.imageName)
-//                Text(person.name)
-//            }
-//        }
     }
 }
 
