@@ -374,6 +374,7 @@ struct myColor: View {
                 .frame(width: 300,height: 300)
                 .clipShape(Circle())
                 .cornerRadius(60)
+                
             Color("ColorSuha")
                 .frame(width: 300,height: 300)
                 .clipShape(Circle())
@@ -382,3 +383,6 @@ struct myColor: View {
     }
 }
 ```
+- Color는 주로 배경에 사용되거나 원을 만들어 활용할 수도 있다.
+- ignoreSafeArea는 시간이 표시되거나, 홈 버튼과 관련되어 사용되어지는 곳을 SafeArea라고 한다.
+- igrnore를 사용하면 해당 공간을 덮어서 사용할 수 있는데, [.top,.bottom]으로 지정하여 위 아래를 지정할 수 있다.
