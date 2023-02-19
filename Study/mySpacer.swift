@@ -29,7 +29,6 @@ struct mySpacer: View {
                     .frame(width:250, height: 50)
                     .background(.blue)
             }
-
         }
     }
 }
