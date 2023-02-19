@@ -364,6 +364,7 @@ struct mySpacer: View {
 - 색을 표현해주는 뷰이다. 색을 깔아서 사용할 수도있고, 텍스트의 색깔, 배경색깔 등을 설정하여 사용한다.
 - Assets 에 자신이 설정한 색깔을 미리 지정해 Color("name") 이렇게도 사용할 수 있다.
 
+<img width="150" alt="스크린샷 2023-02-19 오후 8 31 14" src="https://user-images.githubusercontent.com/36671600/219945240-e450d054-3ab1-4b85-9983-f219e3b075da.png">
 
 ```
 struct myColor: View {
