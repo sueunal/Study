@@ -330,6 +330,7 @@ struct myLIst: View {
 ## Spacer
 - 공간을 만들어주는 레이아웃이다
 - HStack, VStack 경우 쌓을 때 사이에 공간을 만들어주는 역할을 한다.
+<img width="150" alt="스크린샷 2023-02-19 오후 7 54 25" src="https://user-images.githubusercontent.com/36671600/219943634-febe61c1-ca35-4f52-9671-6ffcb84d9b20.png">
 
 ```
 struct mySpacer: View {
