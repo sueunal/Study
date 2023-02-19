@@ -360,5 +360,24 @@ struct mySpacer: View {
 ```
 - 화면을 보면 이미지와 버튼 사이에 공간이 존재하는 것을 볼 수 있는데, Spacer를 사용하여 공간을 삽입했다.
 - Spacear로 공간을 삽입하고 세부적인 조정은 padding을 주어 공간을 활용한다.
+## Color
+- 색을 표현해주는 뷰이다. 색을 깔아서 사용할 수도있고, 텍스트의 색깔, 배경색깔 등을 설정하여 사용한다.
+- Assets 에 자신이 설정한 색깔을 미리 지정해 Color("name") 이렇게도 사용할 수 있다.
 
 
+```
+struct myColor: View {
+    var body: some View {
+        VStack{
+            Color(.green)
+                .frame(width: 300,height: 300)
+                .clipShape(Circle())
+                .cornerRadius(60)
+            Color("ColorSuha")
+                .frame(width: 300,height: 300)
+                .clipShape(Circle())
+                .cornerRadius(60)
+        }
+    }
+}
+```
