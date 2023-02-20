@@ -415,3 +415,6 @@ struct myView: View {
 - @State는 이름 처럼 상태를 나타내는 변수이다.
 - 즉 SwiftUI에서 UI를 그리기 위해서는 @State변수를 사용해서 다시 그려야한다.
 - 만약 @State 변수를 사용하지 않으면 해당 변수는 변할 수 없다고 에러가 나오며 주로 구조체 안에 있는 것들은 바꾸기가 힘들다.
+
+<img width="150" alt="스크린샷 2023-02-20 오후 3 49 10" src="https://user-images.githubusercontent.com/36671600/220033870-eb5894be-5832-426c-a40b-0dd201d4d2fe.png">
+
