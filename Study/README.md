@@ -386,3 +386,28 @@ struct myColor: View {
 - Color는 주로 배경에 사용되거나 원을 만들어 활용할 수도 있다.
 - ignoreSafeArea는 시간이 표시되거나, 홈 버튼과 관련되어 사용되어지는 곳을 SafeArea라고 한다.
 - igrnore를 사용하면 해당 공간을 덮어서 사용할 수 있는데, [.top,.bottom]으로 지정하여 위 아래를 지정할 수 있다.
+
+## View 
+- 사용자 인터페이스의 일부를 나타내는 유형이며 보기를 구성할 수 있다.
+- var body : some view안에 print를 넣으면 뷰를 만족하지 않아서 에러가 나타나게 된다.
+뷰 라는 것은 Button,Text, Section 등 cmd + shift + L을 누르면 나타나는 것들이 뷰를 만족한다고 할 수 있다.
+
+```
+struct thisIsView : View {
+    var body: some View{
+        Button {
+           print("Hited!")
+        } label: {
+            Text("this is view !")
+        }
+
+    }
+}
+struct myView: View {
+    var body: some View {
+        thisIsView()
+    }
+}
+```
+- myVeiw에서 thistisView를 호출하여 Text("this is view !")가 표시된다.
+- 이 코드를 활용할 수 있는 방법은 다른 파일에 뷰를 생성해두고 호출하면 함수처럼 분리해서 사용할 수 있다.
