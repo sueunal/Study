@@ -19,6 +19,7 @@
 		2C91A94829A343A8005A5E75 /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94729A343A8005A5E75 /* myView.swift */; };
 		2C91A94A29A34D79005A5E75 /* myState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94929A34D79005A5E75 /* myState.swift */; };
 		2C91A94C29A3533B005A5E75 /* myModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94B29A3533B005A5E75 /* myModifier.swift */; };
+		2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94D29A358BD005A5E75 /* myPadding.swift */; };
 		2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3BEE4298CC10A009A4EA4 /* Myenum.swift */; };
 		2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */; };
 		2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6547F2987B1BB003F5CBB /* StudyApp.swift */; };
@@ -62,6 +63,7 @@
 		2C91A94729A343A8005A5E75 /* myView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
 		2C91A94929A34D79005A5E75 /* myState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myState.swift; sourceTree = "<group>"; };
 		2C91A94B29A3533B005A5E75 /* myModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myModifier.swift; sourceTree = "<group>"; };
+		2C91A94D29A358BD005A5E75 /* myPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPadding.swift; sourceTree = "<group>"; };
 		2CB3BEE4298CC10A009A4EA4 /* Myenum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myenum.swift; sourceTree = "<group>"; };
 		2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myswitch.swift; sourceTree = "<group>"; };
 		2CE6547C2987B1BB003F5CBB /* Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +147,7 @@
 				2C56450B299E94BB007C3B32 /* selector.swift */,
 				2C91A94929A34D79005A5E75 /* myState.swift */,
 				2C91A94B29A3533B005A5E75 /* myModifier.swift */,
+				2C91A94D29A358BD005A5E75 /* myPadding.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
 				2C564504299BDD4E007C3B32 /* myimage.swift in Sources */,
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,
+				2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */,
 				2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */,
 				2C564502299BD2C8007C3B32 /* myButton.swift in Sources */,
 				2C91A94C29A3533B005A5E75 /* myModifier.swift in Sources */,
