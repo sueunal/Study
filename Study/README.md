@@ -463,4 +463,5 @@ struct myModifier: View {
     }
 }
 ```
+- 이미지를 만들고 resizealbe 된 이미지를 다시 반환해서 뷰를 반환하고 frame 뷰를 반환하고를 반복해서 만들어진다.
 
