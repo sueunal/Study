@@ -437,3 +437,28 @@ struct myState: View {
 - 버튼을 누르면 Hello 내용이 Hello Sueun으로 바뀌는 동작을한다.
 - 간단하게 바뀌는 것 처럼 보이지만 SwiftUI는 UI를 그리기 위해서는 @State 변수를 사용하여 다시 그려주어야 한다.
 
+
+## modifier
+- .(dot)를 찍으면 나타나는 것들이다.  사용할 때 그냥 옵션이라고만 생각했지만.. 자세히 들여다 보니 
+    
+```
+Image()
+    .resizeable()
+    .aspectRatio(contentMode: .fit)
+```
+이 코드는 이미지를 그리고 resizeable() 이라는 modifier로 이미지를 resize로 다시 그려서 화면에 보여주는 것 이었다.
+옵션을 하나하나 추가한 것이 아닌 이미지를 만들어서 뷰를 만들고, 뷰를 만들고 한 것이다.
+
+```
+struct myModifier: View {
+    var body: some View {
+        Image(systemName: "person.fill")
+            .resizable()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: 100,height: 100)
+            .foregroundColor(.yellow)
+            .background(.green)
+    }
+}
+```
+
