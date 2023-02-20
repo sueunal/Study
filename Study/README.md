@@ -418,3 +418,22 @@ struct myView: View {
 
 <img width="150" alt="스크린샷 2023-02-20 오후 3 49 10" src="https://user-images.githubusercontent.com/36671600/220033870-eb5894be-5832-426c-a40b-0dd201d4d2fe.png">
 
+```
+struct myState: View {
+    @State var name : String = ""
+    var body: some View {
+        VStack{
+            Text("Hello \(name)")
+            Button {
+                name = "Sueun!"
+            } label: {
+                Text("Hit me!")
+            }
+        }
+
+    }
+}
+```
+- 버튼을 누르면 Hello 내용이 Hello Sueun으로 바뀌는 동작을한다.
+- 간단하게 바뀌는 것 처럼 보이지만 SwiftUI는 UI를 그리기 위해서는 @State 변수를 사용하여 다시 그려주어야 한다.
+
