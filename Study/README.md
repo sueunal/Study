@@ -440,8 +440,10 @@ struct myState: View {
 
 ## modifier
 - .(dot)를 찍으면 나타나는 것들이다.  사용할 때 그냥 옵션이라고만 생각했지만.. 자세히 들여다 보니 
-    
+  <img width="150" alt="스크린샷 2023-02-20 오후 4 08 10" src="https://user-images.githubusercontent.com/36671600/220036707-ea9d5e5e-3880-433b-af98-5a63bcacd14d.png"> 
+  
 ```
+
 Image()
     .resizeable()
     .aspectRatio(contentMode: .fit)
