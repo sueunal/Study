@@ -465,3 +465,10 @@ struct myModifier: View {
 ```
 - 이미지를 만들고 resizealbe 된 이미지를 다시 반환해서 뷰를 반환하고 frame 뷰를 반환하고를 반복해서 만들어진다.
 
+## .frame
+#### 정의
+``func frame(width: CGFloat? = nil, height: CGFloat? = nil, alignment: Alignment = .center) -> some View ``
+- control + option을 누르고 frame을 누르면 quick help가 나타나게 되는데 설명을 보면 width, height, alignment으로 구성되어지고,width,height는 옵셔널, alignment는 기본값으로 center를 가지고 있다. frame는 너비, 높이를 받아서 view로 반환해주는 modifier이다.
+
+frame은 그냥 크기를 지정해주는 옵션이구나 라고 생각했지만 정의를 보고 자세히 살펴보니 너비, 높이 를 받아서 뷰를 반환해주는 modifier라는 것을 알게 되었다.
+공부는 이렇게 항상 정의를 먼저 찾아보고, 응용하는 것으로 해야겠다.
