@@ -21,6 +21,7 @@
 		2C91A94C29A3533B005A5E75 /* myModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94B29A3533B005A5E75 /* myModifier.swift */; };
 		2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94D29A358BD005A5E75 /* myPadding.swift */; };
 		2C91A95029A48F9B005A5E75 /* myFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94F29A48F9B005A5E75 /* myFrame.swift */; };
+		2C91A95229A4B581005A5E75 /* practice01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A95129A4B581005A5E75 /* practice01.swift */; };
 		2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3BEE4298CC10A009A4EA4 /* Myenum.swift */; };
 		2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */; };
 		2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6547F2987B1BB003F5CBB /* StudyApp.swift */; };
@@ -31,6 +32,7 @@
 		2CE6549B2987B1BC003F5CBB /* StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6549A2987B1BC003F5CBB /* StudyUITests.swift */; };
 		2CE6549D2987B1BC003F5CBB /* StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6549C2987B1BC003F5CBB /* StudyUITestsLaunchTests.swift */; };
 		2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE654AB2987B91C003F5CBB /* myFunction.swift */; };
+		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,7 @@
 		2C91A94B29A3533B005A5E75 /* myModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myModifier.swift; sourceTree = "<group>"; };
 		2C91A94D29A358BD005A5E75 /* myPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPadding.swift; sourceTree = "<group>"; };
 		2C91A94F29A48F9B005A5E75 /* myFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFrame.swift; sourceTree = "<group>"; };
+		2C91A95129A4B581005A5E75 /* practice01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice01.swift; sourceTree = "<group>"; };
 		2CB3BEE4298CC10A009A4EA4 /* Myenum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myenum.swift; sourceTree = "<group>"; };
 		2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myswitch.swift; sourceTree = "<group>"; };
 		2CE6547C2987B1BB003F5CBB /* Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +82,7 @@
 		2CE6549A2987B1BC003F5CBB /* StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyUITests.swift; sourceTree = "<group>"; };
 		2CE6549C2987B1BC003F5CBB /* StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2CE654AB2987B91C003F5CBB /* myFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFunction.swift; sourceTree = "<group>"; };
+		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 		2CE6547E2987B1BB003F5CBB /* Study */ = {
 			isa = PBXGroup;
 			children = (
+				2CE878A429ADF9670078E233 /* TabViewTest.swift */,
 				2C75E8DC29A233650068DD0B /* mySpacer.swift */,
 				2CB3BEE6298CD02C009A4EA4 /* Myswitch.swift */,
 				2C91A94729A343A8005A5E75 /* myView.swift */,
@@ -151,6 +156,7 @@
 				2C91A94B29A3533B005A5E75 /* myModifier.swift */,
 				2C91A94D29A358BD005A5E75 /* myPadding.swift */,
 				2C91A94F29A48F9B005A5E75 /* myFrame.swift */,
+				2C91A95129A4B581005A5E75 /* practice01.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -313,6 +319,8 @@
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
 				2C564504299BDD4E007C3B32 /* myimage.swift in Sources */,
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,
+				2C91A95229A4B581005A5E75 /* practice01.swift in Sources */,
+				2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */,
 				2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */,
 				2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */,
 				2C564502299BD2C8007C3B32 /* myButton.swift in Sources */,

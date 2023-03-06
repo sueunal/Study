@@ -4,7 +4,6 @@
 //
 //  Created by sueun kim on 2023/02/20.
 //
-
 import SwiftUI
 
 struct thisIsView : View {
@@ -14,7 +13,6 @@ struct thisIsView : View {
         } label: {
             Text("this is view !")
         }
-
     }
 }
 struct myView: View {

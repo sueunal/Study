@@ -474,3 +474,40 @@ func frame(width: CGFloat? = nil, height: CGFloat? = nil, alignment: Alignment =
 
 **frame은 그냥 크기를 지정해주는 옵션이구나 라고 생각했지만 정의를 보고 자세히 살펴보니 너비, 높이 를 받아서 뷰를 반환해주는 modifier라는 것을 알게 되었다.
 공부는 이렇게 항상 정의를 먼저 찾아보고, 응용하는 것으로 해야겠다.**
+
+## TabView 
+> 공부하게 된 계기
+스위프트 코딩 클럽에 참여하면서 타이머만들기 프로젝트를 진행하였다.
+각자 탭뷰를 활용해서 자신의 탭에 자신의 파스타 타이머를 만들어 두는 것 이었는데.  
+말 그대로 전화를 걸때 밑에 최근통화, 즐겨찾기, 다이얼 등을 누르면 다른 창으로 변경되는 것이 탭뷰이다.
+```
+struct TabViewTest: View {
+    var body: some View {
+        TabView{
+            Text("1 square ")
+                .tabItem {
+                    Image(systemName: "1.square")
+                }
+            Text("2.square")
+                .tabItem {
+                    Image(systemName: "2.square")
+                }
+            Text("3.square")
+                .tabItem {
+                    Image(systemName: "3.square")
+                }
+            Text("4.alt")
+                .tabItem {
+                    Image(systemName: "4.alt.square")
+                }
+        }
+    }
+}
+```
+코드를 확인해보면 탭뷰를 만들고 그 안에 tabItem이 존재하여  
+탭 마다 구성하는 화면이 다르게 되는것을 볼 수 있다.   
+tabItem에는 뷰만 들어갈 수 있는데 이 곳에 다른 코드의 뷰를 불러와서 사용하면 된다.
+
+
+
+
