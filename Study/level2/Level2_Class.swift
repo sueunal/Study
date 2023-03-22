@@ -11,7 +11,6 @@ struct myPerson{
     var name :String
     let age : Int
 }
-
 class PersonClass{
     var name : String
     let age :Int
@@ -26,7 +25,6 @@ struct Level2_Class: View {
         VStack{
             Text(nickname).foregroundColor(.black)
                 .font(.system(size:50))
-            
             Button {
                 let sueun = PersonClass(name: "aaa", age: 23)
                 let fakename = sueun

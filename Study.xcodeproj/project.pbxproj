@@ -36,6 +36,7 @@
 		2CE6549D2987B1BC003F5CBB /* StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6549C2987B1BC003F5CBB /* StudyUITestsLaunchTests.swift */; };
 		2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE654AB2987B91C003F5CBB /* myFunction.swift */; };
 		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
+		2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF598D729C99562005B379F /* Level2_Closer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		2CE6549C2987B1BC003F5CBB /* StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2CE654AB2987B91C003F5CBB /* myFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFunction.swift; sourceTree = "<group>"; };
 		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
+		2CF598D729C99562005B379F /* Level2_Closer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Closer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				2C3D0B0129C496F100DCC167 /* level2.md */,
 				2C3D0B0229C497C500DCC167 /* Level2_Class.swift */,
+				2CF598D729C99562005B379F /* Level2_Closer.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				2C91A94829A343A8005A5E75 /* myView.swift in Sources */,
 				2C56450A299E4BF9007C3B32 /* myLIst.swift in Sources */,
 				2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */,
+				2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */,
 				2C91A94A29A34D79005A5E75 /* myState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
