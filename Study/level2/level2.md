@@ -139,7 +139,7 @@ struct Level2_Struct: View {
 }
 ```
 
-### Optional Binding
+### Optional Binding 옵셔널 바인딩
 - 옵셔널 바인딩이란 옵셔널은 있을 수도 있고 없을 수도 있다.
 - 하지만 값이 없다면, 앱은 죽어버리기 때문에 바인딩이라는 것을 사용해 앱이 죽지 않도록 방지하는 대책을 마련해야 한다.
 ```
@@ -158,3 +158,27 @@ struct Level2_OptionalBinding: View {
 > 이렇게 if let name = name을 사용하게 된다면 name의 값이 존재하면 Text에 name의 값이 입력될 것이다.   
 > 만약 nil이라면 this is nil이라는 것이 Text에 표시 될 것이다.    
 > 이처럼 옵셔널이라는 것은 사용할 때 nil 때문에 앱이 죽어버린다는 걸 생각하고 코드를 작성해야한다.
+
+### OptionalChaining 옵셔널 체이닝
+- 옵셔널 체이닝이란 nil일수도 있는 프로퍼티나, 함수, 구조체등에 접근하는 것을 말한다.
+- 만약 옵셔널 체이닝을 사용하게 된다면 접근하려하는 값이 nil일수도 있다는 것을 대비하고 체이닝을 사용할 때 바인딩을 필수적으로 해줘야 한다.
+```
+struct Student{
+    var name : String
+    var pet : Pet?
+}
+struct Pet {
+    var name : String
+    var age :Int
+}
+struct Level2_OptionalChaining: View {
+    let sueun = Student(name : "Sueun", pet:Pet(name:"aaa",age:2))
+    var body: some View {
+        if let sueunPetName = sueun.pet?.name {
+            Text(sueunPetName)
+        }
+    }
+}
+```
+> 펫이 있을 수도 있고 없을 수도 있는 상황에서 옵셔널 체이닝을 사용하여 해당 구조체를 바인딩 해줘야 사용이 가능하다.
+

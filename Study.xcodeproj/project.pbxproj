@@ -20,6 +20,7 @@
 		2C60968E29CC3C730004F6B2 /* Level2_Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60968D29CC3C730004F6B2 /* Level2_Optional.swift */; };
 		2C60969029D036B50004F6B2 /* Level2_Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60968F29D036B50004F6B2 /* Level2_Struct.swift */; };
 		2C60969229D08B6F0004F6B2 /* Level2_OptionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60969129D08B6F0004F6B2 /* Level2_OptionalBinding.swift */; };
+		2C60969429D08FE20004F6B2 /* Level2_OptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60969329D08FE20004F6B2 /* Level2_OptionalChaining.swift */; };
 		2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75E8DC29A233650068DD0B /* mySpacer.swift */; };
 		2C75E8DF29A23AA10068DD0B /* myColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75E8DE29A23AA10068DD0B /* myColor.swift */; };
 		2C91A94829A343A8005A5E75 /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94729A343A8005A5E75 /* myView.swift */; };
@@ -75,6 +76,7 @@
 		2C60968D29CC3C730004F6B2 /* Level2_Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Optional.swift; sourceTree = "<group>"; };
 		2C60968F29D036B50004F6B2 /* Level2_Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Struct.swift; sourceTree = "<group>"; };
 		2C60969129D08B6F0004F6B2 /* Level2_OptionalBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_OptionalBinding.swift; sourceTree = "<group>"; };
+		2C60969329D08FE20004F6B2 /* Level2_OptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_OptionalChaining.swift; sourceTree = "<group>"; };
 		2C75E8DC29A233650068DD0B /* mySpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySpacer.swift; sourceTree = "<group>"; };
 		2C75E8DE29A23AA10068DD0B /* myColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myColor.swift; sourceTree = "<group>"; };
 		2C91A94729A343A8005A5E75 /* myView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				2C3D0B0129C496F100DCC167 /* level2.md */,
+				2C60969329D08FE20004F6B2 /* Level2_OptionalChaining.swift */,
 				2C60969129D08B6F0004F6B2 /* Level2_OptionalBinding.swift */,
 				2C60968D29CC3C730004F6B2 /* Level2_Optional.swift */,
 				2C3D0B0229C497C500DCC167 /* Level2_Class.swift */,
@@ -357,6 +360,7 @@
 			files = (
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
 				2C564504299BDD4E007C3B32 /* myimage.swift in Sources */,
+				2C60969429D08FE20004F6B2 /* Level2_OptionalChaining.swift in Sources */,
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,
 				2C91A95229A4B581005A5E75 /* practice01.swift in Sources */,
 				2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */,
