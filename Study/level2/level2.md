@@ -96,3 +96,47 @@ struct Level2_Optional: View {
 }
 ```
 - 코드 처럼 age가 있을 수도 있고 없을 수도 있기 때문에 if let age =age 를 사용하여 nil 이면 age에 12 를 넣는 것으로 사용될 수 있다.
+### Struct 구조체
+- 구조체는 공통 되는 요소들로 묶어 놓은 것들이다.
+```
+struct UserInfo{
+    let name : String
+    let age : Int?
+    let email : String?
+    let job : String?
+    let hasPet : Bool
+    func sayMyName(with name : String){
+        print("sueun")
+    }
+}
+```
+> 코드를 보면 UserInfo의 정보에 해당하는 주제로 묶인 변수와 함수 이름을 확인할 수 있다.
+> 이처럼 공통 적으로 묶일 수 있는 정보들을 구조화해서 나타낸 것이라고 볼 수 있다.
+
+#### 활용
+
+- userInfo 변수를 선언하여 UserInfo구조체의 타입을 가지도록 한다.
+- 변수이름.name,.email 등으로 구조체에 접근하여 사용할 수 있다. 
+- 다른 곳에 영향을 주지 않고 독립적으로 작동하며 쉽게 구분할 수 있다는 것이 장점이다.
+
+```
+struct Level2_Struct: View {
+    let userInfo: UserInfo
+    var body: some View {
+        VStack{ Text(userInfo.name)
+            Text(userInfo.age?.description ?? "100")
+            Text(userInfo.email?.description ?? "hi@naver.com")
+            Text(userInfo.job?.description ?? "no")
+            Text(userInfo.hasPet.description)
+            Button {
+                userInfo.sayMyName(with: userInfo.name)
+            } label: {
+                Text("Button")
+                    .font(.system(size:50))
+            }
+        }
+    }
+}
+```
+
+
