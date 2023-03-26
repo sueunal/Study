@@ -139,4 +139,22 @@ struct Level2_Struct: View {
 }
 ```
 
+### Optional Binding
+- 옵셔널 바인딩이란 옵셔널은 있을 수도 있고 없을 수도 있다.
+- 하지만 값이 없다면, 앱은 죽어버리기 때문에 바인딩이라는 것을 사용해 앱이 죽지 않도록 방지하는 대책을 마련해야 한다.
+```
+struct Level2_OptionalBinding: View {
+    var name : String? = "sueun"
+    var body: some View {
+        if let name = name {
+            Text(name)
+        } else{
+            Text("this is nil!")
+        }
+    }
+}
 
+```
+> 이렇게 if let name = name을 사용하게 된다면 name의 값이 존재하면 Text에 name의 값이 입력될 것이다.   
+> 만약 nil이라면 this is nil이라는 것이 Text에 표시 될 것이다.    
+> 이처럼 옵셔널이라는 것은 사용할 때 nil 때문에 앱이 죽어버린다는 걸 생각하고 코드를 작성해야한다.
