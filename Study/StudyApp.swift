@@ -11,7 +11,6 @@ import SwiftUI
 struct StudyApp: App {
     var body: some Scene {
         WindowGroup {
-            Level2_Closer()
         }
     }
 }
