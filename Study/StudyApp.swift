@@ -11,7 +11,10 @@ import SwiftUI
 struct StudyApp: App {
     var body: some Scene {
         WindowGroup {
+<<<<<<< HEAD
             Practice01()
+=======
+>>>>>>> main
         }
     }
 }

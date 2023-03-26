@@ -12,6 +12,7 @@ struct Loop: View {
     var body: some View {
         VStack {
         Text("Loop Here!")
+<<<<<<< HEAD:Study/Loop.swift
             Text(looploop(with : farmAnimals))
         }
     }
@@ -21,6 +22,17 @@ struct Loop: View {
             }
         return "asdfasdf"
         }
+=======
+            ForEach(farmAnimals, id:\.self){ animal in
+                Text(animal)
+                
+            }
+            ForEach(0..<5){number in
+                Text(farmAnimals[number])
+            }
+        }
+    }
+>>>>>>> main:Study/level1/Loop.swift
 }
 
 struct Loop_Previews: PreviewProvider {

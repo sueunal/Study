@@ -19,6 +19,9 @@ struct myFunction: View {
                 myMind = getMymind(with: isChangedmyMind)
             }label: {
                 Text("Changed my Mind!")
+                    .frame(width: 80,height: 80)
+                    .background(.black)
+                    .cornerRadius(40)
             }
         }
     }
