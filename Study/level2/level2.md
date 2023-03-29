@@ -182,3 +182,65 @@ struct Level2_OptionalChaining: View {
 ```
 > 펫이 있을 수도 있고 없을 수도 있는 상황에서 옵셔널 체이닝을 사용하여 해당 구조체를 바인딩 해줘야 사용이 가능하다.
 
+## Properties 프로퍼티
+- 저장 프로퍼티 : 우리가 흔히 변수라고 부름
+- 연산 프로퍼티 : 값을 설정해서 함수 처럼 사용할 수 있다.
+
+```
+struct Level2_Properties: View {
+    var koreanMoney : Int = 1000
+    var jpanenesMoney : Int{
+        get{
+            return koreanMoney / 10
+        }
+    }
+    var body: some View {
+        VStack{
+            Text("\(koreanMoney.description)원 있습니다.")
+            Text("\(jpanenesMoney.description)엔 있습니다.")
+        }
+    }
+}
+```
+
+## 함수와 메서드?
+> 둘다 같은거 아니야? 라고 생각할 수 있지만 사실 다르다.
+
+
+### 함수  func 키워드를 가짐
+- Name
+- Parameters
+- Return type
+- Function body
+
+### 메서드
+> 메소드는 enum, struct, class 안에서 사용되는 함수를 메서드라고 부르며,
+> 선언된 곳 안에서만 사용이 가능하다.
+
+```
+import SwiftUI
+
+func returnSueun0() -> String{ // 함수 선언
+    return "Sueun0"
+}
+
+struct Level2_FunctinoAndMethode: View {
+    func returnSueun1() -> String{ // 메서드 선언
+        return "Sueun1"
+    }
+    var body: some View {
+        Text(returnSueun0())
+    }
+}
+
+struct Level2_FunctinoAndMethode_Previews: PreviewProvider {
+    static var previews: some View {
+        Level2_FunctinoAndMethode()
+        returnSueun0()
+        returnSueun1() // not define erorr 발생
+    }
+}
+```
+
+> 코드에서 볼 수 있듯이 구조체 안에서 선언한 메서드는 다른 구조체안에서는 사용이 불가능하고, 함수로 선언되어있는 것은 어떤 구조체든 호출이 가능하다.
+ 

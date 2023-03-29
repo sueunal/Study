@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */; };
+		2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727929D4269300DBCD80 /* Level2_Properties.swift */; };
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0B0229C497C500DCC167 /* Level2_Class.swift */; };
 		2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */; };
@@ -61,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_FunctinoAndMethode.swift; sourceTree = "<group>"; };
+		2C1E727929D4269300DBCD80 /* Level2_Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Properties.swift; sourceTree = "<group>"; };
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2C3D0B0129C496F100DCC167 /* level2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = level2.md; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				2C3D0B0229C497C500DCC167 /* Level2_Class.swift */,
 				2C60968F29D036B50004F6B2 /* Level2_Struct.swift */,
 				2CF598D729C99562005B379F /* Level2_Closer.swift */,
+				2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */,
+				2C1E727929D4269300DBCD80 /* Level2_Properties.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
@@ -370,6 +376,7 @@
 				2C564502299BD2C8007C3B32 /* myButton.swift in Sources */,
 				2C91A94C29A3533B005A5E75 /* myModifier.swift in Sources */,
 				2C60969029D036B50004F6B2 /* Level2_Struct.swift in Sources */,
+				2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */,
 				2C91A95029A48F9B005A5E75 /* myFrame.swift in Sources */,
 				2C564506299CA667007C3B32 /* Mystack.swift in Sources */,
 				2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */,
@@ -386,6 +393,7 @@
 				2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */,
 				2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */,
 				2C91A94A29A34D79005A5E75 /* myState.swift in Sources */,
+				2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */,
 				2C60968E29CC3C730004F6B2 /* Level2_Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
