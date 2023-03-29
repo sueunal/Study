@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */; };
 		2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727929D4269300DBCD80 /* Level2_Properties.swift */; };
+		2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */; };
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0B0229C497C500DCC167 /* Level2_Class.swift */; };
 		2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */; };
@@ -65,6 +66,7 @@
 /* Begin PBXFileReference section */
 		2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_FunctinoAndMethode.swift; sourceTree = "<group>"; };
 		2C1E727929D4269300DBCD80 /* Level2_Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Properties.swift; sourceTree = "<group>"; };
+		2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_EnumAfter.swift; sourceTree = "<group>"; };
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2C3D0B0129C496F100DCC167 /* level2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = level2.md; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				2CF598D729C99562005B379F /* Level2_Closer.swift */,
 				2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */,
 				2C1E727929D4269300DBCD80 /* Level2_Properties.swift */,
+				2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */,
 			);
 			path = level2;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
+				2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */,
 				2C564504299BDD4E007C3B32 /* myimage.swift in Sources */,
 				2C60969429D08FE20004F6B2 /* Level2_OptionalChaining.swift in Sources */,
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,

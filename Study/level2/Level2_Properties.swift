@@ -16,8 +16,8 @@ struct Level2_Properties: View {
     }
     var body: some View {
         VStack{
-            Text("\(koreanMoney.description)원 있습니다.")
-            Text("\(jpanenesMoney.description)엔 있습니다.")
+            Text("\(koreanMoney)원 있습니다.")
+            Text("\(jpanenesMoney)엔 있습니다.")
         }
     }
 }

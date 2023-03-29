@@ -244,3 +244,64 @@ struct Level2_FunctinoAndMethode_Previews: PreviewProvider {
 
 > 코드에서 볼 수 있듯이 구조체 안에서 선언한 메서드는 다른 구조체안에서는 사용이 불가능하고, 함수로 선언되어있는 것은 어떤 구조체든 호출이 가능하다.
  
+## enum을 더 잘 활용하는 방법
+> enum 을 활용하면 코드를 깔끔하게 작성할 수 있다.
+> 비슷한 속성끼리 모아서 enum 타입을 지정해두면 지정된 case외에는
+> 어떤 것도 들어갈 수 없다.
+`var drink : String = "hello?"`
+
+### enum을 사용하는 이유
+Drink 변수에 hello? 문자열이 들어가는 것은 전혀 이상하지 않다.
+타입을 String으로 지정해두었기 때문에 모든 String 타입을 들어 갈 수 있다.
+하지만 drink와 전혀 관련이 없는 단어가 나오면 개발자에게는 예측 불가한 위협이 존재한다.
+> Enum을 활용하여 사용자가 선택할 수 있는 범위를 한정시켜 두어 위협에 대비하여야 한다.
+### enum 활용 방법
+```
+enum Drink{
+    case coffee
+    case juice
+    case soft
+}
+```
+> Drink를 선언하여, coffee, juice, soft  case를 지정해두었다.
+> 여기서 3가지만 선언하였지만 커피에는 우유, 카페인, 시럽에 따라 부르는 명칭이 다르다.
+
+```
+enum Drink{
+    case coffee(hasMilk :Bool)
+    case juice
+    case soft(color:Color)
+    
+    var name : String{
+        switch self{
+        case .coffee(hasMilk: let hasMilk):
+            if hasMilk{
+                return "Latte"
+            }else {
+                return "Americano"
+            }
+        case .juice:
+            return "Juice"
+        case .soft(color: let drinkColor):
+            switch drinkColor{
+            case .orange:
+                return "환타"
+            case .black:
+                return "콜라"
+            default:
+                return "음료"
+            }
+        }
+    }
+}
+struct Level2_EnumAfter: View {
+        let myDrinks : Drink = .soft(color: .orange)
+    var body: some View {
+        VStack{
+            Text(myDrinks.name)
+        }
+    }
+}
+```
+- Drink를 선언하여 coffee에 우유가 있는지 soft에 color가 어떤색인지를 프로퍼티를 활용하여 코드를 간결하게 작성할 수 있다.
+ 
