@@ -389,3 +389,19 @@ struct Level2_Modal: View {
 ```
 - 버튼을 누르면 스크린이 화면을 완전히 덮는다.
 - .OnAppear는 화면이 생성 될때 안에있는 print(”hello”)코드를 실행한다.반대로 화면을 제거하는 경우  DisApper로 코드를 실행할 수 있다.
+
+## Alert
+- 사용자에게 알림을 주는 컴포넌트
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2c8992a-d46e-40c9-9bc8-816fbbb194c5/Untitled.png)
+### 사용방법
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5b36eeb7-a516-4056-9e8c-00910c48e078/Untitled.png)
+불 타입 바인딩 변수를 만들어서 true가 되면 알림을 생성한다.
+
+```
+Alert Title! : Alert(title : text,
+    message : This is Alert Mesaage no String Only Text Input
+    primartButton : .Cencel(),
+    secondaryButton : .default(”Enter”)
+    )
+}
+```

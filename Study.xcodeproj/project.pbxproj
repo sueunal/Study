@@ -46,6 +46,7 @@
 		2CE6E44029EFAA4800DBF542 /* DarkMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E43F29EFAA4800DBF542 /* DarkMod.swift */; };
 		2CE6E44229EFC15B00DBF542 /* Level2_Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44129EFC15B00DBF542 /* Level2_Divider.swift */; };
 		2CE6E44429EFCC9E00DBF542 /* Level2_Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */; };
+		2CE6E44629F00F0800DBF542 /* level2_Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44529F00F0800DBF542 /* level2_Alert.swift */; };
 		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
 		2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF598D729C99562005B379F /* Level2_Closer.swift */; };
 /* End PBXBuildFile section */
@@ -112,6 +113,7 @@
 		2CE6E43F29EFAA4800DBF542 /* DarkMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMod.swift; sourceTree = "<group>"; };
 		2CE6E44129EFC15B00DBF542 /* Level2_Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Divider.swift; sourceTree = "<group>"; };
 		2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Modal.swift; sourceTree = "<group>"; };
+		2CE6E44529F00F0800DBF542 /* level2_Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2_Alert.swift; sourceTree = "<group>"; };
 		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 		2CF598D729C99562005B379F /* Level2_Closer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Closer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +183,7 @@
 				2C3D0B0229C497C500DCC167 /* Level2_Class.swift */,
 				2C60968F29D036B50004F6B2 /* Level2_Struct.swift */,
 				2CF598D729C99562005B379F /* Level2_Closer.swift */,
+				2CE6E44529F00F0800DBF542 /* level2_Alert.swift */,
 				2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */,
 				2C1E727929D4269300DBCD80 /* Level2_Properties.swift */,
 				2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */,
@@ -401,6 +404,7 @@
 				2C564508299CB09C007C3B32 /* MyScrollView.swift in Sources */,
 				2C7A5CDC29D835F700CFDCC1 /* Level2_Training.swift in Sources */,
 				2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */,
+				2CE6E44629F00F0800DBF542 /* level2_Alert.swift in Sources */,
 				2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */,
 				2C75E8DF29A23AA10068DD0B /* myColor.swift in Sources */,
 				2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */,
