@@ -311,15 +311,12 @@ struct Level2_EnumAfter: View {
 - 기본 설정은 **라이트 모드**이다.
 
 ### Assets
-
 - 기본 Light모드로 적용 되지만 사용자가 Dark모드를 설정한다면 그 색상 또한 지정해줄 수 있다.
-
-![스크린샷 2023-04-19 오후 2.15.46.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ef8d675-7155-4d29-9ef3-10f96c08b07e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.15.46.png)
+<img width="150" alt="스크린샷 2023-04-19 오후 3 14 20" src="https://user-images.githubusercontent.com/36671600/232982861-70dc2bb9-a4a6-4011-b19a-a89930dc387a.png">
 
 ## Light Mod
-
-![스크린샷 2023-04-19 오후 2.12.14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9d1fc75-176d-41d0-93c4-df13104591bf/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.12.14.png)
+<img width="150" alt="스크린샷 2023-04-19 오후 3 15 00" src="https://user-images.githubusercontent.com/36671600/232983185-9b72380e-e6a4-4034-973a-2470e9681e3d.png">
 
 ## Dark Mod
+<img width="150" alt="스크린샷 2023-04-19 오후 3 15 24" src="https://user-images.githubusercontent.com/36671600/232983219-903ec390-05eb-42be-992f-68db71e04ff8.png">
 
-![스크린샷 2023-04-19 오후 2.18.58.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f4b5fe8-bbb2-417e-9c38-2980c0ba2b43/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.18.58.png)
