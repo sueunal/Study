@@ -333,12 +333,10 @@ struct Level2_EnumAfter: View {
 > 기존화면에서 어떤 다른행도을하도록 유도하는 것이 모달이다.
 > 주로 구매 버튼을 누르면 밑에 새로운 화면이 올라오며 로그인을 요구하는 것
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09c75590-7163-4a05-83f5-b39bc20025b6/Untitled.png)
-
+### .sheet
 - 버튼을 누르면 아래에서 부터 sheet가 올라오며 화면을 덮는다.
 - 화면이 완전히 가려지지는 않고 아래로 쓸어 내리면 다시 닫히는 것을 볼 수 있다.
-
-### .sheet
+<img width="150" alt="스크린샷 2023-04-19 오후 8 37 54" src="https://user-images.githubusercontent.com/36671600/233067215-5d003511-8110-4a0c-966e-f71c73a4ac25.png">
 
 ```swift
 struct Level2_Modal: View {
@@ -359,6 +357,7 @@ struct Level2_Modal: View {
 ```
 
 ### .fullScreenCover
+<img width="150" alt="스크린샷 2023-04-19 오후 8 54 58" src="https://user-images.githubusercontent.com/36671600/233067140-5a87fbf0-7a13-4430-bff1-095d50abab79.png">
 
 ```swift
 struct Level2_Modal: View {
@@ -388,6 +387,5 @@ struct Level2_Modal: View {
     }
 }
 ```
-
 - 버튼을 누르면 스크린이 화면을 완전히 덮는다.
 - .OnAppear는 화면이 생성 될때 안에있는 print(”hello”)코드를 실행한다.반대로 화면을 제거하는 경우  DisApper로 코드를 실행할 수 있다.
