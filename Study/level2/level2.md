@@ -305,3 +305,21 @@ struct Level2_EnumAfter: View {
 ```
 - Drink를 선언하여 coffee에 우유가 있는지 soft에 color가 어떤색인지를 프로퍼티를 활용하여 코드를 간결하게 작성할 수 있다.
  
+## DarkMod 설정
+
+- 사용자가 **라이트, 다크모드를 설정**할 수 있으며 설정후 **색깔이 그에 맞게 변경된다.**
+- 기본 설정은 **라이트 모드**이다.
+
+### Assets
+
+- 기본 Light모드로 적용 되지만 사용자가 Dark모드를 설정한다면 그 색상 또한 지정해줄 수 있다.
+
+![스크린샷 2023-04-19 오후 2.15.46.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4ef8d675-7155-4d29-9ef3-10f96c08b07e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.15.46.png)
+
+## Light Mod
+
+![스크린샷 2023-04-19 오후 2.12.14.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9d1fc75-176d-41d0-93c4-df13104591bf/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.12.14.png)
+
+## Dark Mod
+
+![스크린샷 2023-04-19 오후 2.18.58.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2f4b5fe8-bbb2-417e-9c38-2980c0ba2b43/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-04-19_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_2.18.58.png)
