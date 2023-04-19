@@ -323,7 +323,7 @@ struct Level2_EnumAfter: View {
 
 ## Divider 디바이더
 > 컨텐츠를 선 나누어 주는 뷰
-<img width="150" alt="스크린샷 2023-04-19 오후 3 57 43" src="https://user-images.githubusercontent.com/36671600/232993903-f6ed4664-253f-42e4-9941-57cfd2f521b4.png">
+<img width="250" alt="스크린샷 2023-04-19 오후 3 57 43" src="https://user-images.githubusercontent.com/36671600/232993903-f6ed4664-253f-42e4-9941-57cfd2f521b4.png">
 - Zstack, Vstack, Hstack을 이용하여 선으로 구분해줄 수 있다.
 - .background를 이용하여 색깔 변경
 - .frame을 사용하여 선의 길이를 조정할 수 있다.
