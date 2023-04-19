@@ -395,9 +395,9 @@ struct Level2_Modal: View {
 <img width="150" alt="스크린샷 2023-04-19 오후 9 16 52" src="https://user-images.githubusercontent.com/36671600/233078105-f112c0a3-dab9-482f-b90e-6ce7600d3322.png">
 
 ### 사용방법
-불 타입 바인딩 변수를 만들어서 true가 되면 알림을 생성한다.
+불 타입 바인딩 변수를 만들어서 true가 되면 알림을 생성한다.   
 <img width="150" alt="스크린샷 2023-04-19 오후 9 27 35" src="https://user-images.githubusercontent.com/36671600/233078159-fc6602a9-4938-49b4-a40e-2b0782018386.png">
-<img width="150" alt="스크린샷 2023-04-19 오후 9 32 47" src="https://user-images.githubusercontent.com/36671600/233078267-98ada01e-d7a6-4f9f-ba20-3fb4a75f5f80.png">
+<img width="150" alt="스크린샷 2023-04-19 오후 9 32 47" src="https://user-images.githubusercontent.com/36671600/233078267-98ada01e-d7a6-4f9f-ba20-3fb4a75f5f80.png">   
 ```
 Alert Title! : Alert(title : text,
     message : This is Alert Mesaage no String Only Text Input
