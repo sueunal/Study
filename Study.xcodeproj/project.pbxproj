@@ -45,6 +45,7 @@
 		2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE654AB2987B91C003F5CBB /* myFunction.swift */; };
 		2CE6E44029EFAA4800DBF542 /* DarkMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E43F29EFAA4800DBF542 /* DarkMod.swift */; };
 		2CE6E44229EFC15B00DBF542 /* Level2_Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44129EFC15B00DBF542 /* Level2_Divider.swift */; };
+		2CE6E44429EFCC9E00DBF542 /* Level2_Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */; };
 		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
 		2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF598D729C99562005B379F /* Level2_Closer.swift */; };
 /* End PBXBuildFile section */
@@ -110,6 +111,7 @@
 		2CE654AB2987B91C003F5CBB /* myFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFunction.swift; sourceTree = "<group>"; };
 		2CE6E43F29EFAA4800DBF542 /* DarkMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMod.swift; sourceTree = "<group>"; };
 		2CE6E44129EFC15B00DBF542 /* Level2_Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Divider.swift; sourceTree = "<group>"; };
+		2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Modal.swift; sourceTree = "<group>"; };
 		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 		2CF598D729C99562005B379F /* Level2_Closer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Closer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				2C3D0B0129C496F100DCC167 /* level2.md */,
+				2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */,
 				2C60969329D08FE20004F6B2 /* Level2_OptionalChaining.swift */,
 				2C60969129D08B6F0004F6B2 /* Level2_OptionalBinding.swift */,
 				2C60968D29CC3C730004F6B2 /* Level2_Optional.swift */,
@@ -211,10 +214,10 @@
 		2CE6547E2987B1BB003F5CBB /* Study */ = {
 			isa = PBXGroup;
 			children = (
-				2C3D0B0529C49D2F00DCC167 /* level2 */,
-				2C3D0B0429C49CF800DCC167 /* level1 */,
 				2CE6547F2987B1BB003F5CBB /* StudyApp.swift */,
 				2CE654812987B1BB003F5CBB /* ContentView.swift */,
+				2C3D0B0529C49D2F00DCC167 /* level2 */,
+				2C3D0B0429C49CF800DCC167 /* level1 */,
 				2CE654832987B1BC003F5CBB /* Assets.xcassets */,
 				2CE654852987B1BC003F5CBB /* Preview Content */,
 			);
@@ -379,6 +382,7 @@
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
 				2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */,
 				2C564504299BDD4E007C3B32 /* myimage.swift in Sources */,
+				2CE6E44429EFCC9E00DBF542 /* Level2_Modal.swift in Sources */,
 				2C60969429D08FE20004F6B2 /* Level2_OptionalChaining.swift in Sources */,
 				2CE6E44229EFC15B00DBF542 /* Level2_Divider.swift in Sources */,
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,
