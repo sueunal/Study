@@ -307,8 +307,8 @@ struct Level2_EnumAfter: View {
  
 ## DarkMod 설정
 
-- 사용자가 **라이트, 다크모드를 설정**할 수 있으며 설정후 **색깔이 그에 맞게 변경된다.**
-- 기본 설정은 **라이트 모드**이다.
+> 사용자가 **라이트, 다크모드를 설정**할 수 있으며 설정후 **색깔이 그에 맞게 변경된다.**
+> 기본 설정은 **라이트 모드**이다.
 
 ### Assets
 - 기본 Light모드로 적용 되지만 사용자가 Dark모드를 설정한다면 그 색상 또한 지정해줄 수 있다.
@@ -320,3 +320,10 @@ struct Level2_EnumAfter: View {
 ## Dark Mod
 <img width="150" alt="스크린샷 2023-04-19 오후 3 15 24" src="https://user-images.githubusercontent.com/36671600/232983219-903ec390-05eb-42be-992f-68db71e04ff8.png">
 
+
+## Divider 디바이더
+> 컨텐츠를 선 나누어 주는 뷰
+
+- Zstack, Vstack, Hstack을 이용하여 선으로 구분해줄 수 있다.
+- .background를 이용하여 색깔 변경
+- .frame을 사용하여 선의 길이를 조정할 수 있다.
