@@ -32,9 +32,6 @@ struct Level2_Training: View {
                         pet = nickName
                     }
                 }
-                else {
-                    Text("nothing pet")
-                }
             }
         label:{
             Text("Push")
