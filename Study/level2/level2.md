@@ -439,3 +439,28 @@ SecureField("Enter ID", text: $userID")
 
 시큐어필드는 비밀번호가 가려지고 텍스트필드는 가져지지 않는다.   
 시큐어 필드와 텍스트 필드를 이용해 버튼을 누르면 비밀번호를 보이게 또는 안보이게 설정할 수 있다.
+
+## ProgressView
+
+- 현재 작업상태를 보여주는 뷰이다.
+- 무언가를 설치할 때나 어플에서 사용자에게 현재 상태를 알려주기 위해 사용된다.
+
+
+
+```swift
+VStack{
+            ProgressView("Loading...",value: progress,total: 100)
+            Button{
+                progress += 5
+            }
+            label:{
+            Text("Click")
+            }
+        }
+```
+
+프로그래스뷰는 위와 같이 value, total 값이 주어지면 그림과 같이 늘어나는 형태로 보여지고   
+만약 저런 옵션들이 없다면 화면에서 로딩걸리는 것과 같은 뷰가 계속 돌아간다.
+
+
+ProgressView()의 그림

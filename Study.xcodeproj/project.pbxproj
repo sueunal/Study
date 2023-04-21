@@ -12,6 +12,7 @@
 		2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */; };
 		2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727929D4269300DBCD80 /* Level2_Properties.swift */; };
 		2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */; };
+		2C1FFC5C29F305B500242EB6 /* Level2_ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FFC5B29F305B500242EB6 /* Level2_ProgressView.swift */; };
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0B0229C497C500DCC167 /* Level2_Class.swift */; };
 		2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */; };
@@ -76,6 +77,7 @@
 		2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_FunctinoAndMethode.swift; sourceTree = "<group>"; };
 		2C1E727929D4269300DBCD80 /* Level2_Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Properties.swift; sourceTree = "<group>"; };
 		2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_EnumAfter.swift; sourceTree = "<group>"; };
+		2C1FFC5B29F305B500242EB6 /* Level2_ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_ProgressView.swift; sourceTree = "<group>"; };
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2C3D0B0129C496F100DCC167 /* level2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = level2.md; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				2C3D0B0229C497C500DCC167 /* Level2_Class.swift */,
 				2C60968F29D036B50004F6B2 /* Level2_Struct.swift */,
 				2CF598D729C99562005B379F /* Level2_Closer.swift */,
+				2C1FFC5B29F305B500242EB6 /* Level2_ProgressView.swift */,
 				2CE6E44529F00F0800DBF542 /* level2_Alert.swift */,
 				2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */,
 				2C1E727929D4269300DBCD80 /* Level2_Properties.swift */,
@@ -401,6 +404,7 @@
 				2C48B97E29BC61D6001A273F /* KeypadApp.swift in Sources */,
 				2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */,
 				2C564502299BD2C8007C3B32 /* myButton.swift in Sources */,
+				2C1FFC5C29F305B500242EB6 /* Level2_ProgressView.swift in Sources */,
 				2C91A94C29A3533B005A5E75 /* myModifier.swift in Sources */,
 				2C60969029D036B50004F6B2 /* Level2_Struct.swift in Sources */,
 				2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */,
