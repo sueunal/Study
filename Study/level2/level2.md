@@ -407,3 +407,36 @@ Alert Title! : Alert(title : text,
     )
 }
 ```
+
+## TextField, SecureField
+
+### TextField
+
+- 사용자에게 입력을 받을 수 있게 해준다.
+- String 타입의 @State 변수가 필요하다.
+
+주로 아이디나, 비밀번호를 입력받을 때 사용된다.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a9da51a-5086-44b2-8f7c-0873dc0905bd/Untitled.png)
+
+```swift
+@State var userID : String = ""
+TextField("Enter ID", text: $userID")
+```
+
+변수를 바인딩 시켜 텍스트 필드안의 내용을 넣는다.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5b03281-5df4-46d4-aa7b-a99f383a69ac/Untitled.png)
+
+### SecureField
+- 입력값이 다른 사람에게 보여지는 상황에 가려질 필요가 있을 때 사용된다 (주로 비밀번호)
+- 사용 방법은 텍스트 필드와 동일하며, 이름만 Secure로 변경된다.
+
+```swift
+@State var userPW : String = ""
+SecureField("Enter ID", text: $userID")
+```
+
+
+시큐어필드는 비밀번호가 가려지고 텍스트필드는 가져지지 않는다.   
+시큐어 필드와 텍스트 필드를 이용해 버튼을 누르면 비밀번호를 보이게 또는 안보이게 설정할 수 있다.
