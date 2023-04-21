@@ -445,6 +445,7 @@ SecureField("Enter ID", text: $userID")
 - 현재 작업상태를 보여주는 뷰이다.
 - 무언가를 설치할 때나 어플에서 사용자에게 현재 상태를 알려주기 위해 사용된다.
 
+<img width="200" alt="스크린샷 2023-04-22 오전 3 06 17" src="https://user-images.githubusercontent.com/36671600/233706255-8c49b007-6a8d-41c5-8d9b-305e830002ef.png">
 
 
 ```swift
@@ -462,5 +463,6 @@ VStack{
 프로그래스뷰는 위와 같이 value, total 값이 주어지면 그림과 같이 늘어나는 형태로 보여지고   
 만약 저런 옵션들이 없다면 화면에서 로딩걸리는 것과 같은 뷰가 계속 돌아간다.
 
+<img width="200" alt="스크린샷 2023-04-22 오전 3 08 51" src="https://user-images.githubusercontent.com/36671600/233706286-70ab6465-3653-4713-b941-1ee0c2f6f3d5.png">
 
 ProgressView()의 그림
