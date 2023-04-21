@@ -416,15 +416,17 @@ Alert Title! : Alert(title : text,
 - String 타입의 @State 변수가 필요하다.
 
 주로 아이디나, 비밀번호를 입력받을 때 사용된다.
-<img width="150" alt="스크린샷 2023-04-20 오후 7 31 04" src="https://user-images.githubusercontent.com/36671600/233613481-a91cbf87-6750-483c-a2c5-02520574925e.png">
+
+<img width="250" alt="스크린샷 2023-04-20 오후 7 31 04" src="https://user-images.githubusercontent.com/36671600/233613481-a91cbf87-6750-483c-a2c5-02520574925e.png">
 
 ```swift
 @State var userID : String = ""
 TextField("Enter ID", text: $userID")
 ```
 
-변수를 바인딩 시켜 텍스트 필드안의 내용을 넣는다.
-<img width="150" alt="스크린샷 2023-04-20 오후 7 37 48" src="https://user-images.githubusercontent.com/36671600/233613515-3c2d301a-a087-4be6-84e7-3fbaf9d7cb77.png">
+변수를 바인딩 시켜 텍스트 필드안의 내용을 넣는다.   
+<img width="250" alt="스크린샷 2023-04-20 오후 7 37 48" src="https://user-images.githubusercontent.com/36671600/233613515-3c2d301a-a087-4be6-84e7-3fbaf9d7cb77.png">
+
 ### SecureField
 - 입력값이 다른 사람에게 보여지는 상황에 가려질 필요가 있을 때 사용된다 (주로 비밀번호)
 - 사용 방법은 텍스트 필드와 동일하며, 이름만 Secure로 변경된다.
