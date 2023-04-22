@@ -480,5 +480,6 @@ VStack{
             Label("Sueun", systemImage: "bolt") // systemImage도 같이 들어감
         }
 ```
+<img width="200" alt="스크린샷 2023-04-22 오후 5 35 24" src="https://user-images.githubusercontent.com/36671600/233773294-fafe667c-bfd5-49e9-8e0d-33bb0a6855bb.png">
 
 Text로 똑같은걸 만들기 위해선 Image를 따로 사용해야하지만 Label를 사용하면 코드 한줄로 해결이 가능하다.
