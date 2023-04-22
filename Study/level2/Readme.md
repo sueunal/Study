@@ -466,3 +466,19 @@ VStack{
 <img width="200" alt="스크린샷 2023-04-22 오전 3 08 51" src="https://user-images.githubusercontent.com/36671600/233706286-70ab6465-3653-4713-b941-1ee0c2f6f3d5.png">
 
 ProgressView()의 그림
+
+## Label
+- 텍스트와 이미지르 묶어주는 컴포넌트
+- 주로 Text를 많이 사용하지만 Text는 하나만 표시가 가능하고 Label은 2개 표시 가능하다.
+
+```swift
+VStack{
+            HStack{
+                Image(systemName: "bolt")
+                Text("Sueun") // Text만 들어감
+            }
+            Label("Sueun", systemImage: "bolt") // systemImage도 같이 들어감
+        }
+```
+
+Text로 똑같은걸 만들기 위해선 Image를 따로 사용해야하지만 Label를 사용하면 코드 한줄로 해결이 가능하다.
