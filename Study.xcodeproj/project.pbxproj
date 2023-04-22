@@ -80,7 +80,7 @@
 		2C1FFC5B29F305B500242EB6 /* Level2_ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_ProgressView.swift; sourceTree = "<group>"; };
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
-		2C3D0B0129C496F100DCC167 /* level2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = level2.md; sourceTree = "<group>"; };
+		2C3D0B0129C496F100DCC167 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2C3D0B0229C497C500DCC167 /* Level2_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Class.swift; sourceTree = "<group>"; };
 		2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadAppTabView.swift; sourceTree = "<group>"; };
 		2C48B97D29BC61D6001A273F /* KeypadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadApp.swift; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				2C190AF729F144280092A7B6 /* Level2_TextField.swift */,
-				2C3D0B0129C496F100DCC167 /* level2.md */,
+				2C3D0B0129C496F100DCC167 /* Readme.md */,
 				2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */,
 				2C60969329D08FE20004F6B2 /* Level2_OptionalChaining.swift */,
 				2C60969129D08B6F0004F6B2 /* Level2_OptionalBinding.swift */,
