@@ -22,7 +22,7 @@ struct Level2_Training: View {
     var mimi : Friend = Friend(name: "mimi", pet:MyPet.cat("pepe") )
     var body: some View {
         VStack{
-               Text(pet)
+            Text(pet)
             Button{
                 if let petName = mimi.pet{
                     switch petName{
@@ -35,7 +35,6 @@ struct Level2_Training: View {
             }
         label:{
             Text("Push")
-            
         }
         }
     }
