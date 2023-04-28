@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2C190AF629F111390092A7B6 /* Level2_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C190AF529F111390092A7B6 /* Level2_Toggle.swift */; };
 		2C190AF829F144280092A7B6 /* Level2_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C190AF729F144280092A7B6 /* Level2_TextField.swift */; };
+		2C19499E29FB9ED3007D20AB /* Level3_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */; };
 		2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */; };
 		2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727929D4269300DBCD80 /* Level2_Properties.swift */; };
 		2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */; };
@@ -77,6 +78,8 @@
 /* Begin PBXFileReference section */
 		2C190AF529F111390092A7B6 /* Level2_Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Toggle.swift; sourceTree = "<group>"; };
 		2C190AF729F144280092A7B6 /* Level2_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_TextField.swift; sourceTree = "<group>"; };
+		2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3_Binding.swift; sourceTree = "<group>"; };
+		2C19499F29FBA713007D20AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_FunctinoAndMethode.swift; sourceTree = "<group>"; };
 		2C1E727929D4269300DBCD80 /* Level2_Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Properties.swift; sourceTree = "<group>"; };
 		2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_EnumAfter.swift; sourceTree = "<group>"; };
@@ -215,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				2C8C1B6E29FA921B008E12CF /* Level3_Shape.swift */,
+				2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */,
+				2C19499F29FBA713007D20AB /* README.md */,
 			);
 			path = level3;
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */,
 				2CE6E44629F00F0800DBF542 /* level2_Alert.swift in Sources */,
 				2C190AF829F144280092A7B6 /* Level2_TextField.swift in Sources */,
+				2C19499E29FB9ED3007D20AB /* Level3_Binding.swift in Sources */,
 				2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */,
 				2C75E8DF29A23AA10068DD0B /* myColor.swift in Sources */,
 				2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */,

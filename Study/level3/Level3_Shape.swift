@@ -10,17 +10,8 @@ import SwiftUI
 struct Level3_Shape: View {
     var body: some View {
         VStack{
-            ZStack{
                 Circle()
                     .background(.red)
-                Rectangle()
-                    .clipShape(Circle())
-                    .background(.green)
-                Capsule()
-                    .foregroundColor(.yellow)
-                Ellipse()
-                    .foregroundColor(.red)
-            }
         }
     }
 }
