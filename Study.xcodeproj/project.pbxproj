@@ -10,6 +10,7 @@
 		2C190AF629F111390092A7B6 /* Level2_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C190AF529F111390092A7B6 /* Level2_Toggle.swift */; };
 		2C190AF829F144280092A7B6 /* Level2_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C190AF729F144280092A7B6 /* Level2_TextField.swift */; };
 		2C19499E29FB9ED3007D20AB /* Level3_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */; };
+		2C1949A129FBD318007D20AB /* Level3_Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1949A029FBD318007D20AB /* Level3_Slider.swift */; };
 		2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */; };
 		2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727929D4269300DBCD80 /* Level2_Properties.swift */; };
 		2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */; };
@@ -80,6 +81,7 @@
 		2C190AF729F144280092A7B6 /* Level2_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_TextField.swift; sourceTree = "<group>"; };
 		2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3_Binding.swift; sourceTree = "<group>"; };
 		2C19499F29FBA713007D20AB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2C1949A029FBD318007D20AB /* Level3_Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3_Slider.swift; sourceTree = "<group>"; };
 		2C1E727729D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_FunctinoAndMethode.swift; sourceTree = "<group>"; };
 		2C1E727929D4269300DBCD80 /* Level2_Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Properties.swift; sourceTree = "<group>"; };
 		2C1E727B29D4996B00DBCD80 /* Level2_EnumAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_EnumAfter.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			children = (
 				2C8C1B6E29FA921B008E12CF /* Level3_Shape.swift */,
 				2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */,
+				2C1949A029FBD318007D20AB /* Level3_Slider.swift */,
 				2C19499F29FBA713007D20AB /* README.md */,
 			);
 			path = level3;
@@ -423,6 +426,7 @@
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,
 				2C91A95229A4B581005A5E75 /* practice01.swift in Sources */,
 				2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */,
+				2C1949A129FBD318007D20AB /* Level3_Slider.swift in Sources */,
 				2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */,
 				2C1FFC5E29F3D21000242EB6 /* Level2_Label.swift in Sources */,
 				2C48B97E29BC61D6001A273F /* KeypadApp.swift in Sources */,
