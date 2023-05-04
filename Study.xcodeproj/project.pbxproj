@@ -60,6 +60,7 @@
 		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
 		2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF598D729C99562005B379F /* Level2_Closer.swift */; };
 		2CF5ECE52A03C8BE00F5C62A /* level3_ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */; };
+		2CF5ECE72A03D7BB00F5C62A /* level3_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5ECE62A03D7BB00F5C62A /* level3_Animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 		2CF598D729C99562005B379F /* Level2_Closer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Closer.swift; sourceTree = "<group>"; };
 		2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_ColorHex.swift; sourceTree = "<group>"; };
+		2CF5ECE62A03D7BB00F5C62A /* level3_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				2CB692C229FE99AD0047A7D7 /* Level3_Stepper.swift */,
 				2CB692C429FFFF0C0047A7D7 /* Level3_TextEditor.swift */,
 				2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */,
+				2CF5ECE62A03D7BB00F5C62A /* level3_Animation.swift */,
 				2C1949A029FBD318007D20AB /* Level3_Slider.swift */,
 				2C19499F29FBA713007D20AB /* README.md */,
 			);
@@ -437,6 +440,7 @@
 				2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */,
 				2C1949A129FBD318007D20AB /* Level3_Slider.swift in Sources */,
 				2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */,
+				2CF5ECE72A03D7BB00F5C62A /* level3_Animation.swift in Sources */,
 				2C1FFC5E29F3D21000242EB6 /* Level2_Label.swift in Sources */,
 				2C48B97E29BC61D6001A273F /* KeypadApp.swift in Sources */,
 				2CB3BEE5298CC10A009A4EA4 /* Myenum.swift in Sources */,
