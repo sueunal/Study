@@ -59,6 +59,7 @@
 		2CE6E44629F00F0800DBF542 /* level2_Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44529F00F0800DBF542 /* level2_Alert.swift */; };
 		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
 		2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF598D729C99562005B379F /* Level2_Closer.swift */; };
+		2CF5ECE52A03C8BE00F5C62A /* level3_ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +138,7 @@
 		2CE6E44529F00F0800DBF542 /* level2_Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2_Alert.swift; sourceTree = "<group>"; };
 		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 		2CF598D729C99562005B379F /* Level2_Closer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Closer.swift; sourceTree = "<group>"; };
+		2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_ColorHex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +229,7 @@
 				2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */,
 				2CB692C229FE99AD0047A7D7 /* Level3_Stepper.swift */,
 				2CB692C429FFFF0C0047A7D7 /* Level3_TextEditor.swift */,
+				2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */,
 				2C1949A029FBD318007D20AB /* Level3_Slider.swift */,
 				2C19499F29FBA713007D20AB /* README.md */,
 			);
@@ -468,6 +471,7 @@
 				2C91A94A29A34D79005A5E75 /* myState.swift in Sources */,
 				2C1E727829D4179C00DBCD80 /* Level2_FunctinoAndMethode.swift in Sources */,
 				2CE6E44029EFAA4800DBF542 /* DarkMod.swift in Sources */,
+				2CF5ECE52A03C8BE00F5C62A /* level3_ColorHex.swift in Sources */,
 				2C60968E29CC3C730004F6B2 /* Level2_Optional.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
