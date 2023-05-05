@@ -11,12 +11,17 @@ struct level3_Gradiant: View {
     @State var isAnimation : Bool = false
     var body: some View {
         ZStack{
+            Image("river")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .ignoresSafeArea()
             VStack{
                 Image(systemName: "cloud.rain.fill")
                     .resizable()
                     .frame(width: 80,height: 80)
-                    .offset(y:isAnimation ? 0 : -80)
+                    .offset(y:isAnimation ? 500 :  0)
                     .animation(.interpolatingSpring(stiffness: 100, damping: 150), value: isAnimation)
+                Spacer()
                 Button{
                     isAnimation.toggle()
                 }label:{
@@ -27,6 +32,7 @@ struct level3_Gradiant: View {
                                                     ,startPoint: .topLeading
                                                     , endPoint: .bottomTrailing ))
                         .cornerRadius(45)
+                        .padding()
                 }
             }
         }
