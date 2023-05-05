@@ -19,6 +19,7 @@
 		2C1FFC6029F3D74000242EB6 /* Level2_NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FFC5F29F3D74000242EB6 /* Level2_NavigationStack.swift */; };
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0B0229C497C500DCC167 /* Level2_Class.swift */; };
+		2C42FAE42A04E37F008B8C94 /* level3_Gradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */; };
 		2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */; };
 		2C48B97E29BC61D6001A273F /* KeypadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97D29BC61D6001A273F /* KeypadApp.swift */; };
 		2C564502299BD2C8007C3B32 /* myButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C564501299BD2C8007C3B32 /* myButton.swift */; };
@@ -96,6 +97,7 @@
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2C3D0B0129C496F100DCC167 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2C3D0B0229C497C500DCC167 /* Level2_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Class.swift; sourceTree = "<group>"; };
+		2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Gradiant.swift; sourceTree = "<group>"; };
 		2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadAppTabView.swift; sourceTree = "<group>"; };
 		2C48B97D29BC61D6001A273F /* KeypadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadApp.swift; sourceTree = "<group>"; };
 		2C564501299BD2C8007C3B32 /* myButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myButton.swift; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 				2CB692C229FE99AD0047A7D7 /* Level3_Stepper.swift */,
 				2CB692C429FFFF0C0047A7D7 /* Level3_TextEditor.swift */,
 				2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */,
+				2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */,
 				2CF5ECE62A03D7BB00F5C62A /* level3_Animation.swift */,
 				2C1949A029FBD318007D20AB /* Level3_Slider.swift */,
 				2C19499F29FBA713007D20AB /* README.md */,
@@ -460,6 +463,7 @@
 				2C190AF829F144280092A7B6 /* Level2_TextField.swift in Sources */,
 				2C19499E29FB9ED3007D20AB /* Level3_Binding.swift in Sources */,
 				2CB692C529FFFF0C0047A7D7 /* Level3_TextEditor.swift in Sources */,
+				2C42FAE42A04E37F008B8C94 /* level3_Gradiant.swift in Sources */,
 				2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */,
 				2C75E8DF29A23AA10068DD0B /* myColor.swift in Sources */,
 				2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */,
