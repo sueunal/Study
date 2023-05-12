@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C08DB202A0E5C8600E10FA1 /* level3_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08DB1F2A0E5C8600E10FA1 /* level3_Extension.swift */; };
 		2C190AF629F111390092A7B6 /* Level2_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C190AF529F111390092A7B6 /* Level2_Toggle.swift */; };
 		2C190AF829F144280092A7B6 /* Level2_TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C190AF729F144280092A7B6 /* Level2_TextField.swift */; };
 		2C19499E29FB9ED3007D20AB /* Level3_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */; };
@@ -86,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C08DB1F2A0E5C8600E10FA1 /* level3_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Extension.swift; sourceTree = "<group>"; };
 		2C190AF529F111390092A7B6 /* Level2_Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Toggle.swift; sourceTree = "<group>"; };
 		2C190AF729F144280092A7B6 /* Level2_TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_TextField.swift; sourceTree = "<group>"; };
 		2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3_Binding.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 		2CE654732987B1BB003F5CBB = {
 			isa = PBXGroup;
 			children = (
+				2C08DB1F2A0E5C8600E10FA1 /* level3_Extension.swift */,
 				2CE6547E2987B1BB003F5CBB /* Study */,
 				2CE6548F2987B1BC003F5CBB /* StudyTests */,
 				2CE654992987B1BC003F5CBB /* StudyUITests */,
@@ -474,6 +477,7 @@
 				2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */,
 				2C564508299CB09C007C3B32 /* MyScrollView.swift in Sources */,
 				2C7A5CDC29D835F700CFDCC1 /* Level2_Training.swift in Sources */,
+				2C08DB202A0E5C8600E10FA1 /* level3_Extension.swift in Sources */,
 				2CE654AC2987B91C003F5CBB /* myFunction.swift in Sources */,
 				2CE6E44629F00F0800DBF542 /* level2_Alert.swift in Sources */,
 				2C190AF829F144280092A7B6 /* Level2_TextField.swift in Sources */,
