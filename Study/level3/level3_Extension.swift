@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+class MyLogin{
+    
+}
 
 struct level3_Extension: View {
     var body: some View {
@@ -13,7 +16,6 @@ struct level3_Extension: View {
             Color.sueun.ignoresSafeArea()
             VStack{
                 Text("This is Sueun Color")
-                    .frame(width: 200,height: 200)
             }
         }
     }

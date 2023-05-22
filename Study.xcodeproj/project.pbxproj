@@ -239,6 +239,7 @@
 		2C8C1B6D29FA9200008E12CF /* level3 */ = {
 			isa = PBXGroup;
 			children = (
+				2C08DB1F2A0E5C8600E10FA1 /* level3_Extension.swift */,
 				2C8C1B6E29FA921B008E12CF /* Level3_Shape.swift */,
 				2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */,
 				2CB692C229FE99AD0047A7D7 /* Level3_Stepper.swift */,
@@ -259,7 +260,6 @@
 		2CE654732987B1BB003F5CBB = {
 			isa = PBXGroup;
 			children = (
-				2C08DB1F2A0E5C8600E10FA1 /* level3_Extension.swift */,
 				2CE6547E2987B1BB003F5CBB /* Study */,
 				2CE6548F2987B1BC003F5CBB /* StudyTests */,
 				2CE654992987B1BC003F5CBB /* StudyUITests */,
