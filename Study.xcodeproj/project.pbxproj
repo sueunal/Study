@@ -20,6 +20,7 @@
 		2C1FFC6029F3D74000242EB6 /* Level2_NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FFC5F29F3D74000242EB6 /* Level2_NavigationStack.swift */; };
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
 		2C317DEF2A34C216002D7865 /* level3_checkpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C317DEE2A34C216002D7865 /* level3_checkpoint.swift */; };
+		2C317DF12A34CB4F002D7865 /* level4_AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C317DF02A34CB4F002D7865 /* level4_AccessControl.swift */; };
 		2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0B0229C497C500DCC167 /* Level2_Class.swift */; };
 		2C42FAE42A04E37F008B8C94 /* level3_Gradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */; };
 		2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */; };
@@ -104,6 +105,7 @@
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		2C317DEE2A34C216002D7865 /* level3_checkpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_checkpoint.swift; sourceTree = "<group>"; };
+		2C317DF02A34CB4F002D7865 /* level4_AccessControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level4_AccessControl.swift; sourceTree = "<group>"; };
 		2C3D0B0129C496F100DCC167 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2C3D0B0229C497C500DCC167 /* Level2_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Class.swift; sourceTree = "<group>"; };
 		2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Gradiant.swift; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				2C08DB1F2A0E5C8600E10FA1 /* level3_Extension.swift */,
+				2C317DF02A34CB4F002D7865 /* level4_AccessControl.swift */,
 				2C8C1B6E29FA921B008E12CF /* Level3_Shape.swift */,
 				2C19499D29FB9ED3007D20AB /* Level3_Binding.swift */,
 				2CB692C229FE99AD0047A7D7 /* Level3_Stepper.swift */,
@@ -481,6 +484,7 @@
 				2C1E727A29D4269300DBCD80 /* Level2_Properties.swift in Sources */,
 				2C8C1B6F29FA921B008E12CF /* Level3_Shape.swift in Sources */,
 				2C91A95029A48F9B005A5E75 /* myFrame.swift in Sources */,
+				2C317DF12A34CB4F002D7865 /* level4_AccessControl.swift in Sources */,
 				2C564506299CA667007C3B32 /* Mystack.swift in Sources */,
 				2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */,
 				2C564508299CB09C007C3B32 /* MyScrollView.swift in Sources */,
