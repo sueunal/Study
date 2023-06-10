@@ -19,6 +19,7 @@
 		2C1FFC5E29F3D21000242EB6 /* Level2_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FFC5D29F3D21000242EB6 /* Level2_Label.swift */; };
 		2C1FFC6029F3D74000242EB6 /* Level2_NavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FFC5F29F3D74000242EB6 /* Level2_NavigationStack.swift */; };
 		2C2143102988198C00554B15 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21430F2988198C00554B15 /* Loop.swift */; };
+		2C317DEF2A34C216002D7865 /* level3_checkpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C317DEE2A34C216002D7865 /* level3_checkpoint.swift */; };
 		2C3D0B0329C497C500DCC167 /* Level2_Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0B0229C497C500DCC167 /* Level2_Class.swift */; };
 		2C42FAE42A04E37F008B8C94 /* level3_Gradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */; };
 		2C48B97C29BC5E9D001A273F /* KeypadAppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48B97B29BC5E9D001A273F /* KeypadAppTabView.swift */; };
@@ -36,6 +37,7 @@
 		2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75E8DC29A233650068DD0B /* mySpacer.swift */; };
 		2C75E8DF29A23AA10068DD0B /* myColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C75E8DE29A23AA10068DD0B /* myColor.swift */; };
 		2C7A5CDC29D835F700CFDCC1 /* Level2_Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7A5CDB29D835F700CFDCC1 /* Level2_Training.swift */; };
+		2C7BA7382A3351BE0043BBCD /* level3_Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BA7372A3351BE0043BBCD /* level3_Concurrency.swift */; };
 		2C8C1B6F29FA921B008E12CF /* Level3_Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C1B6E29FA921B008E12CF /* Level3_Shape.swift */; };
 		2C91A94829A343A8005A5E75 /* myView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94729A343A8005A5E75 /* myView.swift */; };
 		2C91A94A29A34D79005A5E75 /* myState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C91A94929A34D79005A5E75 /* myState.swift */; };
@@ -101,6 +103,7 @@
 		2C1FFC5F29F3D74000242EB6 /* Level2_NavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_NavigationStack.swift; sourceTree = "<group>"; };
 		2C21430E2987FE7100554B15 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2C21430F2988198C00554B15 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
+		2C317DEE2A34C216002D7865 /* level3_checkpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_checkpoint.swift; sourceTree = "<group>"; };
 		2C3D0B0129C496F100DCC167 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		2C3D0B0229C497C500DCC167 /* Level2_Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Class.swift; sourceTree = "<group>"; };
 		2C42FAE32A04E37F008B8C94 /* level3_Gradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Gradiant.swift; sourceTree = "<group>"; };
@@ -119,6 +122,7 @@
 		2C75E8DC29A233650068DD0B /* mySpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySpacer.swift; sourceTree = "<group>"; };
 		2C75E8DE29A23AA10068DD0B /* myColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myColor.swift; sourceTree = "<group>"; };
 		2C7A5CDB29D835F700CFDCC1 /* Level2_Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Training.swift; sourceTree = "<group>"; };
+		2C7BA7372A3351BE0043BBCD /* level3_Concurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Concurrency.swift; sourceTree = "<group>"; };
 		2C8C1B6E29FA921B008E12CF /* Level3_Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3_Shape.swift; sourceTree = "<group>"; };
 		2C91A94729A343A8005A5E75 /* myView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myView.swift; sourceTree = "<group>"; };
 		2C91A94929A34D79005A5E75 /* myState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myState.swift; sourceTree = "<group>"; };
@@ -253,6 +257,8 @@
 				2C1949A029FBD318007D20AB /* Level3_Slider.swift */,
 				2CD8E90E2A0A58BB00C45F24 /* level3_Closer.swift */,
 				2C19499F29FBA713007D20AB /* README.md */,
+				2C7BA7372A3351BE0043BBCD /* level3_Concurrency.swift */,
+				2C317DEE2A34C216002D7865 /* level3_checkpoint.swift */,
 			);
 			path = level3;
 			sourceTree = "<group>";
@@ -446,6 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7BA7382A3351BE0043BBCD /* level3_Concurrency.swift in Sources */,
 				2C1FFC6029F3D74000242EB6 /* Level2_NavigationStack.swift in Sources */,
 				2CE654822987B1BB003F5CBB /* ContentView.swift in Sources */,
 				2C1E727C29D4996B00DBCD80 /* Level2_EnumAfter.swift in Sources */,
@@ -456,6 +463,7 @@
 				2CE6E44229EFC15B00DBF542 /* Level2_Divider.swift in Sources */,
 				2C75E8DD29A233650068DD0B /* mySpacer.swift in Sources */,
 				2C91A95229A4B581005A5E75 /* practice01.swift in Sources */,
+				2C317DEF2A34C216002D7865 /* level3_checkpoint.swift in Sources */,
 				2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */,
 				2C1949A129FBD318007D20AB /* Level3_Slider.swift in Sources */,
 				2C91A94E29A358BD005A5E75 /* myPadding.swift in Sources */,
