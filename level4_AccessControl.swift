@@ -18,7 +18,6 @@ class Taxi{
         return self.Driver
     }
 }
-
 struct level4_AccessControl: View {
     var myTaxi = Taxi(Driver: "Sueun")
     var body: some View {
