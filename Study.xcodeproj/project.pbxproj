@@ -69,6 +69,7 @@
 		2CE6E44429EFCC9E00DBF542 /* Level2_Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */; };
 		2CE6E44629F00F0800DBF542 /* level2_Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6E44529F00F0800DBF542 /* level2_Alert.swift */; };
 		2CE878A529ADF9670078E233 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A429ADF9670078E233 /* TabViewTest.swift */; };
+		2CF4E4492A3B2CF300C9728C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4E4482A3B2CF300C9728C /* LoginView.swift */; };
 		2CF598D829C99562005B379F /* Level2_Closer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF598D729C99562005B379F /* Level2_Closer.swift */; };
 		2CF5ECE52A03C8BE00F5C62A /* level3_ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */; };
 		2CF5ECE72A03D7BB00F5C62A /* level3_Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5ECE62A03D7BB00F5C62A /* level3_Animation.swift */; };
@@ -160,6 +161,7 @@
 		2CE6E44329EFCC9E00DBF542 /* Level2_Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Modal.swift; sourceTree = "<group>"; };
 		2CE6E44529F00F0800DBF542 /* level2_Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2_Alert.swift; sourceTree = "<group>"; };
 		2CE878A429ADF9670078E233 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
+		2CF4E4482A3B2CF300C9728C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2CF598D729C99562005B379F /* Level2_Closer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2_Closer.swift; sourceTree = "<group>"; };
 		2CF5ECE42A03C8BE00F5C62A /* level3_ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_ColorHex.swift; sourceTree = "<group>"; };
 		2CF5ECE62A03D7BB00F5C62A /* level3_Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3_Animation.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				2C317DF02A34CB4F002D7865 /* level4_AccessControl.swift */,
 				2C04BE2C2A377F57001D7D3B /* level4_initializer.swift */,
 				2C317DF52A35B0EC002D7865 /* level4_ErrorHandling.swift */,
+				2CF4E4482A3B2CF300C9728C /* LoginView.swift */,
 			);
 			name = level4;
 			path = ..;
@@ -512,6 +515,7 @@
 				2C19499E29FB9ED3007D20AB /* Level3_Binding.swift in Sources */,
 				2CB692C529FFFF0C0047A7D7 /* Level3_TextEditor.swift in Sources */,
 				2C42FAE42A04E37F008B8C94 /* level3_Gradiant.swift in Sources */,
+				2CF4E4492A3B2CF300C9728C /* LoginView.swift in Sources */,
 				2CB3BEE7298CD02C009A4EA4 /* Myswitch.swift in Sources */,
 				2C75E8DF29A23AA10068DD0B /* myColor.swift in Sources */,
 				2CE654802987B1BB003F5CBB /* StudyApp.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct StudyApp: App {
     var body: some Scene {
         WindowGroup {
-            level4_AccessControl()
+            LoginView()
         }
     }
 }

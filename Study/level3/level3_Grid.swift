@@ -8,28 +8,46 @@
 import SwiftUI
 
 struct level3_Grid: View {
-    let data = (1...50).map { "Item \($0)" }
-    let columns = [ // 한줄에 몇개를 둘것인지 item 설정
-        GridItem(.adaptive(minimum: 50)),
-        GridItem(.adaptive(minimum: 50)),
-        GridItem(.adaptive(minimum: 50)),
-        GridItem(.adaptive(minimum: 50)),
-        GridItem(.adaptive(minimum: 50))
+    var colums = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
     ]
-                 
-    var body: some View {
-        LazyVGrid(columns: columns , spacing: 0) {
-            ForEach(data, id: \.self) { item in
-                Image("river")
-                    .resizable()
-                    .frame(width:80,height: 80)
+    var myimages : [String] = ["river","river"]
+    var body: some View{
+        ScrollView{
+            LazyVGrid(columns: colums, spacing: 20) {
+                ForEach( myimages,id:\.self){ item in
+                    LazyVStack(alignment: .listRowSeparatorLeading, spacing: 5 ){
+                        Image(item)
+                            .resizable()
+                            .frame(width: 160,height: 200,alignment: .leading)
+                        Text("나이키 신발")
+                            .frame(width: 160,height: 20,alignment: .leading)
+                            .minimumScaleFactor(0.7)
+                            .lineLimit(1)
+                        Text("나이키 신발")
+                            .frame(width: 160,height: 20,alignment: .leading)
+                            .minimumScaleFactor(0.7)
+                            .lineLimit(1)
+                        Text("나이키 신발")
+                            .frame(width: 160,height: 20,alignment: .leading)
+                            .minimumScaleFactor(0.7)
+                            .lineLimit(1)
+                    }
+                    .padding(.leading,8)
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.gray,lineWidth: 0.3)
+                    )
+                }
             }
+            Spacer()
         }
     }
 }
 
 struct level3_Grid_Previews: PreviewProvider {
     static var previews: some View {
-        level3_Grid()
+            level3_Grid()
     }
 }
